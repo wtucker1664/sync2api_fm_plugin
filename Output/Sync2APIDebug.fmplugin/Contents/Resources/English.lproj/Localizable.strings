@@ -1,0 +1,19 @@
+/* Plug-In name appearing in FM's preferences dialog */
+String1 = "Sync2API";
+/* Options text appearing in FM's preferences dialog */
+String2 = "This plug-in extends FileMaker applications by adding external functions for connecting to the Sync2API platform";
+/* Version */
+String3 = "1.0";
+/* External functions prototypes go here */
+String101 = "SYNC2API_Version( { versionFormat } )";
+String102 = "SYNC2API_SetModule( module )";
+String103 = "SYNC2API_SetMethod( method )";
+String104 = "SYNC2API_SendRequest()";
+String105 = "SYNC2API_GetRecordCount()";
+String106 = "SYNC2API_GetProperty( recordNumber ; propertyName )";
+String107 = "SYNC2API_GetAllProperties( recordNumber )";
+String108 = "SYNC2API_ClearRequest( )";
+String109 = "SYNC2API_Licence( ckey ; sckey )";
+String110 = "SYNC2API_GetRecordVarNames( recordNumber ) // recordNumber is optional";
+String111 = "SYNC2API_SetProperty( name , value )";
+String112 = "SYNC2API_SetComplexProperty( name , isValue ) // isValue must be a 1 if it is the value of the propery you wish to send";

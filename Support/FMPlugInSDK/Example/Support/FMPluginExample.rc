@@ -1,0 +1,195 @@
+// Microsoft Visual C++ generated resource script.
+//
+
+
+// Copyright 1998-2005 FileMaker, Inc.  All Rights Reserved.
+
+
+
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE  
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE  
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE  
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// This string table is not localized.
+//
+
+STRINGTABLE 
+BEGIN
+	// 1..127
+    1     "XMpl1YnYYnn"
+		  // ^--^ || | |---- // No Win32s support
+		  // |    || |------ // Want idle time 
+		  // |    ||-------- // No old external functions
+		  // |    |--------- // Has preferences dialog
+		  // |------------- // 'XMpl' plug-in ID
+END
+
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// This string table is usually not localized, but it is your option.
+//
+
+STRINGTABLE
+BEGIN
+	102		"XMpl_Add( number1; number2 )"
+	103		"XMpl_Append( textToAppend... )"
+	104		"XMpl_Evaluate( calcToEvaluate )"
+	105		"XMpl_StartScript( filename; scriptname )"
+	106		"XMpl_UserFormatNumber( textOrNumber )"
+	107		"XMpl_FormatNumber( formatString; textOrNumber )"
+	108		"XMpl_NumToWords( number )"
+	109		"XMpl_Version"
+END
+
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// This string table is localized.
+//
+
+
+// English (U.S.) resources
+LANGUAGE 9, 1
+#pragma code_page(1252) // ASCII latin 1
+
+STRINGTABLE 
+BEGIN
+	// 128..
+    128			"FMExample"
+    129			"This plug-in comes with FileMaker Pro Advanced. It provides useful functions for solutions and demonstrates to programmers how plug-ins work. See the Development Guide for information."
+
+	kFMEX_RES_DIALOGPREFS_MSG	"Please enter a formatting string for all text processed by XMpl_UserFormatNumber:"
+	kFMEX_RES_DIALOGPREFS_TXT	"1-(###)-###-####"
+
+	kFMEX_NTW_One		"One "
+	kFMEX_NTW_Two		"Two "
+	kFMEX_NTW_Three		"Three "
+	kFMEX_NTW_Four		"Four "
+	kFMEX_NTW_Five		"Five "
+	kFMEX_NTW_Six		"Six "
+	kFMEX_NTW_Seven		"Seven "
+	kFMEX_NTW_Eight		"Eight "
+	kFMEX_NTW_Nine		"Nine "
+	kFMEX_NTW_Ten		"Ten "
+
+	kFMEX_NTW_Eleven		"Eleven "
+	kFMEX_NTW_Twelve		"Twelve "
+	kFMEX_NTW_Thirteen		"Thirteen "
+	kFMEX_NTW_Fourteen		"Fourteen "
+	kFMEX_NTW_Fifteen		"Fifteen "
+	kFMEX_NTW_Sixteen		"Sixteen "
+	kFMEX_NTW_Seventeen		"Seventeen "
+	kFMEX_NTW_Eighteen		"Eighteen "
+	kFMEX_NTW_Nineteen		"Nineteen "
+
+	kFMEX_NTW_Twenty		"Twenty "
+	kFMEX_NTW_Thirty		"Thirty "
+	kFMEX_NTW_Forty			"Forty "
+	kFMEX_NTW_Fifty			"Fifty "
+	kFMEX_NTW_Sixty			"Sixty "
+	kFMEX_NTW_Seventy		"Seventy "
+	kFMEX_NTW_Eighty		"Eighty "
+	kFMEX_NTW_Ninty			"Ninety "
+
+	kFMEX_NTW_1Hundred		"One Hundred "
+	kFMEX_NTW_2Hundred		"Two Hundred "
+	kFMEX_NTW_3Hundred		"Three Hundred "
+	kFMEX_NTW_4Hundred		"Four Hundred "
+	kFMEX_NTW_5Hundred		"Five Hundred "
+	kFMEX_NTW_6Hundred		"Six Hundred "
+	kFMEX_NTW_7Hundred		"Seven Hundred "
+	kFMEX_NTW_8Hundred		"Eight Hundred "
+	kFMEX_NTW_9Hundred		"Nine Hundred "
+
+	kFMEX_NTW_Thousand		"Thousand "
+	kFMEX_NTW_Million		"Million "
+	kFMEX_NTW_Billion		"Billion "
+
+	kFMEX_NTW_NoCents		"No Cents "
+	kFMEX_NTW_Cent			"Cent "
+	kFMEX_NTW_Cents			"Cents "
+	kFMEX_NTW_And			"and "
+	kFMEX_NTW_Dollar		"Dollar "
+	kFMEX_NTW_Dollars		"Dollars "
+	kFMEX_NTW_Hyphen		"-"
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// This is the resource for the Preferences Dialog.
+//
+
+kFMEX_RES_DIALOGID DIALOGEX 50, 50, 194, 84
+STYLE DS_MODALFRAME | DS_3DLOOK | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "FMExample Plugin Preferences"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Please enter a formatting string for all text processed by XMpl_UserFormatNumber:",
+                    kFMEX_RES_DIALOGPREFS_STXT,5,8,181,26
+
+    EDITTEXT        kFMEX_RES_DIALOGPREFS_EDIT,5,41,181,14,ES_AUTOHSCROLL
+
+	PUSHBUTTON      "OK",IDOK,137,63,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,80,63,50,14
+END
+
+
+
+// English (U.S.) resources
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

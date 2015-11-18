@@ -1,0 +1,23 @@
+/* Plug-In name appearing in FM's preferences dialog */
+String1 = "Sync2API";
+/* Options text appearing in FM's preferences dialog */
+String2 = "This plug-in extends FileMaker applications by adding external functions for connecting to the Sync2API platform";
+/* Version */
+String3 = "1.0";
+/* External functions prototypes go here */
+String101 = "Sync2API_Version( { versionFormat } )";
+String102 = "Sync2API_SetModule( module )";
+String103 = "Sync2API_SetMethod( method )";
+String104 = "Sync2API_SendRequest";
+String105 = "Sync2API_GetRecordCount";
+String106 = "Sync2API_GetProperty( recordNumber ; propertyName )";
+String107 = "Sync2API_GetAllProperties( recordNumber )";
+String108 = "Sync2API_ClearRequest";
+String109 = "Sync2API_Licence( ckey ; sckey )";
+String110 = "Sync2API_GetRecordVarNames( { recordNumber } ) // recordNumber is optional";
+String111 = "Sync2API_SetProperty( name ; value )";
+String112 = "Sync2API_SetComplexProperty( name ; { isValue } ) // isValue must be a 1 if it is the value of the propery you wish to send";
+String113 = "Sync2API_TwitterSetRowCount( { qty } ) //Qty = Optional value for the last number of tweets to get (leave blank for default of 1";
+String114 = "Sync2API_TwitterGetRow( type ; row ) //Type = 'Simple' to get just the text or 'Complex' to get all data; Row = Pass the row number through as a variable in a loop";
+String115 = "Sync2API_TwitterPost( text ) // Remember to limit your tweet to xx characters in length";
+String116 = "Sync2API_TwitterDelete( id_str ) // The id string of the tweet";

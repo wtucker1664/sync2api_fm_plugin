@@ -1,0 +1,68 @@
+"FMPluginExample 1" = "XMpl1YnYYnn";
+
+"FMPluginExample 102" = "XMpl_Add( number1; number2 )";
+"FMPluginExample 103" = "XMpl_Append( textToAppend... )";
+"FMPluginExample 104" = "XMpl_Evaluate( calcToEvaluate )";
+"FMPluginExample 105" = "XMpl_StartScript( filename; scriptname )";
+"FMPluginExample 106" = "XMpl_UserFormatNumber( textOrNumber )";
+"FMPluginExample 107" = "XMpl_FormatNumber( formatString; textOrNumber )";
+"FMPluginExample 108" = "XMpl_NumToWords( number )";
+"FMPluginExample 109" = "XMpl_Version";
+
+"FMPluginExample 128" = "FMExample";
+"FMPluginExample 129" = "This plug-in comes with FileMaker Pro Advanced. It provides useful functions for solutions and demonstrates to programmers how plug-ins work. See the Development Guide for information.";
+
+"FMPluginExample 500" = "Please enter a formatting string for all text processed by XMpl_UserFormatNumber";
+"FMPluginExample 501" = "1-(###)-###-####";
+
+"FMPluginExample 1001" = "One ";
+"FMPluginExample 1002" = "Two ";
+"FMPluginExample 1003" = "Three ";
+"FMPluginExample 1004" = "Four ";
+"FMPluginExample 1005" = "Five ";
+"FMPluginExample 1006" = "Six ";
+"FMPluginExample 1007" = "Seven ";
+"FMPluginExample 1008" = "Eight ";
+"FMPluginExample 1009" = "Nine ";
+
+"FMPluginExample 1010" = "Ten ";
+"FMPluginExample 1011" = "Eleven ";
+"FMPluginExample 1012" = "Twelve ";
+"FMPluginExample 1013" = "Thirteen ";
+"FMPluginExample 1014" = "Fourteen ";
+"FMPluginExample 1015" = "Fifteen ";
+"FMPluginExample 1016" = "Sixteen ";
+"FMPluginExample 1017" = "Seventeen ";
+"FMPluginExample 1018" = "Eighteen ";
+"FMPluginExample 1019" = "Nineteen ";
+
+"FMPluginExample 1020" = "Twenty ";
+"FMPluginExample 1030" = "Thirty ";
+"FMPluginExample 1040" = "Forty ";
+"FMPluginExample 1050" = "Fifty ";
+"FMPluginExample 1060" = "Sixty ";
+"FMPluginExample 1070" = "Seventy ";
+"FMPluginExample 1080" = "Eighty ";
+"FMPluginExample 1090" = "Ninety ";
+
+"FMPluginExample 1100" = "One Hundred ";
+"FMPluginExample 1200" = "Two Hundred ";
+"FMPluginExample 1300" = "Three Hundred ";
+"FMPluginExample 1400" = "Four Hundred ";
+"FMPluginExample 1500" = "Five Hundred ";
+"FMPluginExample 1600" = "Six Hundred ";
+"FMPluginExample 1700" = "Seven Hundred ";
+"FMPluginExample 1800" = "Eight Hundred ";
+"FMPluginExample 1900" = "Nine Hundred ";
+
+"FMPluginExample 9004" = "Thousand ";
+"FMPluginExample 9007" = "Million ";
+"FMPluginExample 9010" = "Billion ";
+
+"FMPluginExample 9900" = "No Cents ";
+"FMPluginExample 9901" = "Cent ";
+"FMPluginExample 9902" = "Cents ";
+"FMPluginExample 9903" = "and ";
+"FMPluginExample 9904" = "Dollar ";
+"FMPluginExample 9905" = "Dollars ";
+"FMPluginExample 9906" = "-";

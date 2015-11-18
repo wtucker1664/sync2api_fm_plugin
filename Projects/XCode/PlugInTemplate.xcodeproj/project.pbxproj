@@ -1,0 +1,672 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F0A79E518DC5C0600A1D720 /* libcurl.4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F0A79E418DC5C0600A1D720 /* libcurl.4.dylib */; };
+		3F581F0D1B5949CC00F2D8C2 /* FMPluginLicence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3F581EE91B5949CC00F2D8C2 /* FMPluginLicence.cpp */; };
+		3F581F0E1B5949CC00F2D8C2 /* FMPluginLicence.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F581EEA1B5949CC00F2D8C2 /* FMPluginLicence.h */; };
+		3F581F0F1B5949CC00F2D8C2 /* LBFMPluginClearRequest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3F581EEB1B5949CC00F2D8C2 /* LBFMPluginClearRequest.cpp */; };
+		3F581F101B5949CC00F2D8C2 /* LBFMPluginClearRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F581EEC1B5949CC00F2D8C2 /* LBFMPluginClearRequest.h */; };
+		3F581F111B5949CC00F2D8C2 /* LBFMPluginGetAllProperties.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3F581EED1B5949CC00F2D8C2 /* LBFMPluginGetAllProperties.cpp */; };
+		3F581F121B5949CC00F2D8C2 /* LBFMPluginGetAllProperties.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F581EEE1B5949CC00F2D8C2 /* LBFMPluginGetAllProperties.h */; };
+		3F581F131B5949CC00F2D8C2 /* LBFMPluginGetProperty.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3F581EEF1B5949CC00F2D8C2 /* LBFMPluginGetProperty.cpp */; };
+		3F581F141B5949CC00F2D8C2 /* LBFMPluginGetProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F581EF01B5949CC00F2D8C2 /* LBFMPluginGetProperty.h */; };
+		3F581F151B5949CC00F2D8C2 /* LBFMPluginGetRecordCount.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3F581EF11B5949CC00F2D8C2 /* LBFMPluginGetRecordCount.cpp */; };
+		3F581F161B5949CC00F2D8C2 /* LBFMPluginGetRecordCount.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F581EF21B5949CC00F2D8C2 /* LBFMPluginGetRecordCount.h */; };
+		3F581F171B5949CC00F2D8C2 /* LBFMPluginGetRecordVarNames.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3F581EF31B5949CC00F2D8C2 /* LBFMPluginGetRecordVarNames.cpp */; };
+		3F581F181B5949CC00F2D8C2 /* LBFMPluginGetRecordVarNames.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F581EF41B5949CC00F2D8C2 /* LBFMPluginGetRecordVarNames.h */; };
+		3F581F1B1B5949CC00F2D8C2 /* LBFMPluginHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3F581EF71B5949CC00F2D8C2 /* LBFMPluginHandler.cpp */; };
+		3F581F1C1B5949CC00F2D8C2 /* LBFMPluginHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F581EF81B5949CC00F2D8C2 /* LBFMPluginHandler.h */; };
+		3F581F1D1B5949CC00F2D8C2 /* LBFMPluginSendRequest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3F581EF91B5949CC00F2D8C2 /* LBFMPluginSendRequest.cpp */; };
+		3F581F1E1B5949CC00F2D8C2 /* LBFMPluginSendRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F581EFA1B5949CC00F2D8C2 /* LBFMPluginSendRequest.h */; };
+		3F581F1F1B5949CC00F2D8C2 /* LBFMPluginSetComplexProperty.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3F581EFB1B5949CC00F2D8C2 /* LBFMPluginSetComplexProperty.cpp */; };
+		3F581F201B5949CC00F2D8C2 /* LBFMPluginSetComplexProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F581EFC1B5949CC00F2D8C2 /* LBFMPluginSetComplexProperty.h */; };
+		3F581F211B5949CC00F2D8C2 /* LBFMPluginSetMethod.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3F581EFD1B5949CC00F2D8C2 /* LBFMPluginSetMethod.cpp */; };
+		3F581F221B5949CC00F2D8C2 /* LBFMPluginSetMethod.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F581EFE1B5949CC00F2D8C2 /* LBFMPluginSetMethod.h */; };
+		3F581F231B5949CC00F2D8C2 /* LBFMPluginSetModule.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3F581EFF1B5949CC00F2D8C2 /* LBFMPluginSetModule.cpp */; };
+		3F581F241B5949CC00F2D8C2 /* LBFMPluginSetModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F581F001B5949CC00F2D8C2 /* LBFMPluginSetModule.h */; };
+		3F581F251B5949CC00F2D8C2 /* LBFMPluginSetProperty.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3F581F011B5949CC00F2D8C2 /* LBFMPluginSetProperty.cpp */; };
+		3F581F261B5949CC00F2D8C2 /* LBFMPluginSetProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F581F021B5949CC00F2D8C2 /* LBFMPluginSetProperty.h */; };
+		3F581F271B5949CC00F2D8C2 /* LBFMPluginTwitterDelete.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3F581F031B5949CC00F2D8C2 /* LBFMPluginTwitterDelete.cpp */; };
+		3F581F281B5949CC00F2D8C2 /* LBFMPluginTwitterDelete.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F581F041B5949CC00F2D8C2 /* LBFMPluginTwitterDelete.h */; };
+		3F581F291B5949CC00F2D8C2 /* LBFMPluginTwitterGetRow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3F581F051B5949CC00F2D8C2 /* LBFMPluginTwitterGetRow.cpp */; };
+		3F581F2A1B5949CC00F2D8C2 /* LBFMPluginTwitterGetRow.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F581F061B5949CC00F2D8C2 /* LBFMPluginTwitterGetRow.h */; };
+		3F581F2B1B5949CC00F2D8C2 /* LBFMPluginTwitterPost.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3F581F071B5949CC00F2D8C2 /* LBFMPluginTwitterPost.cpp */; };
+		3F581F2C1B5949CC00F2D8C2 /* LBFMPluginTwitterPost.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F581F081B5949CC00F2D8C2 /* LBFMPluginTwitterPost.h */; };
+		3F581F2D1B5949CC00F2D8C2 /* LBFMPluginTwitterSetRowCount.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3F581F091B5949CC00F2D8C2 /* LBFMPluginTwitterSetRowCount.cpp */; };
+		3F581F2E1B5949CC00F2D8C2 /* LBFMPluginTwitterSetRowCount.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F581F0A1B5949CC00F2D8C2 /* LBFMPluginTwitterSetRowCount.h */; };
+		3F581F301B5949CC00F2D8C2 /* LBJSONRenderFM.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F581F0C1B5949CC00F2D8C2 /* LBJSONRenderFM.h */; };
+		3F581F501B5949E000F2D8C2 /* allocators.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F581F321B5949E000F2D8C2 /* allocators.h */; };
+		3F581F511B5949E000F2D8C2 /* document.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F581F331B5949E000F2D8C2 /* document.h */; };
+		3F581F521B5949E000F2D8C2 /* encodedstream.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F581F341B5949E000F2D8C2 /* encodedstream.h */; };
+		3F581F531B5949E000F2D8C2 /* encodings.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F581F351B5949E000F2D8C2 /* encodings.h */; };
+		3F581F561B5949E000F2D8C2 /* filereadstream.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F581F391B5949E000F2D8C2 /* filereadstream.h */; };
+		3F581F571B5949E000F2D8C2 /* filewritestream.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F581F3A1B5949E000F2D8C2 /* filewritestream.h */; };
+		3F581F621B5949E000F2D8C2 /* memorybuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F581F461B5949E000F2D8C2 /* memorybuffer.h */; };
+		3F581F631B5949E000F2D8C2 /* memorystream.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F581F471B5949E000F2D8C2 /* memorystream.h */; };
+		3F581F661B5949E000F2D8C2 /* prettywriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F581F4B1B5949E000F2D8C2 /* prettywriter.h */; };
+		3F581F671B5949E000F2D8C2 /* rapidjson.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F581F4C1B5949E000F2D8C2 /* rapidjson.h */; };
+		3F581F681B5949E000F2D8C2 /* reader.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F581F4D1B5949E000F2D8C2 /* reader.h */; };
+		3F581F691B5949E000F2D8C2 /* stringbuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F581F4E1B5949E000F2D8C2 /* stringbuffer.h */; };
+		3F581F6A1B5949E000F2D8C2 /* writer.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F581F4F1B5949E000F2D8C2 /* writer.h */; };
+		3F8391851B0A48F500B856E6 /* FMWrapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F8391841B0A48F500B856E6 /* FMWrapper.framework */; };
+		821E31AB078E906A004B645E /* FMTemplate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 821E3188078E9069004B645E /* FMTemplate.cpp */; };
+		821E31AC078E906A004B645E /* FMTemplate.h in Headers */ = {isa = PBXBuildFile; fileRef = 821E3187078E9069004B645E /* FMTemplate.h */; };
+		821E31B0078E906A004B645E /* FMXCalcEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = 821E317D078E9069004B645E /* FMXCalcEngine.h */; };
+		821E31B1078E906A004B645E /* FMXBinaryData.h in Headers */ = {isa = PBXBuildFile; fileRef = 821E317C078E9069004B645E /* FMXBinaryData.h */; };
+		821E31B2078E906A004B645E /* FMXDateTime.h in Headers */ = {isa = PBXBuildFile; fileRef = 821E3180078E9069004B645E /* FMXDateTime.h */; };
+		821E31B3078E906A004B645E /* FMXData.h in Headers */ = {isa = PBXBuildFile; fileRef = 821E317F078E9069004B645E /* FMXData.h */; };
+		821E31B4078E906A004B645E /* FMXClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 821E317E078E9069004B645E /* FMXClient.h */; };
+		821E31B5078E906A004B645E /* FMXTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 821E3185078E9069004B645E /* FMXTypes.h */; };
+		821E31B6078E906A004B645E /* FMXTextStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 821E3184078E9069004B645E /* FMXTextStyle.h */; };
+		821E31B7078E906A004B645E /* FMXText.h in Headers */ = {isa = PBXBuildFile; fileRef = 821E3183078E9069004B645E /* FMXText.h */; };
+		821E31B8078E906A004B645E /* FMXFixPt.h in Headers */ = {isa = PBXBuildFile; fileRef = 821E3182078E9069004B645E /* FMXFixPt.h */; };
+		821E31B9078E906A004B645E /* FMXExtern.h in Headers */ = {isa = PBXBuildFile; fileRef = 821E3181078E9069004B645E /* FMXExtern.h */; };
+		821E31BC078E906A004B645E /* FMUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 821E318A078E9069004B645E /* FMUtils.h */; };
+		821E31BD078E906A004B645E /* FMUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 821E318B078E9069004B645E /* FMUtils.cpp */; };
+		821E31BE078E906A004B645E /* FMPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 821E3176078E9069004B645E /* FMPlugin.h */; };
+		821E31BF078E906A004B645E /* FMPluginHandlers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 821E3177078E9069004B645E /* FMPluginHandlers.cpp */; };
+		821E31C0078E906A004B645E /* FMPluginVersion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 821E3178078E9069004B645E /* FMPluginVersion.cpp */; };
+		821E31C6078E906C004B645E /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 821E31C4078E906C004B645E /* Carbon.framework */; };
+		82E58B840795DF7900592B32 /* FMTConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 82E58B830795DF7900592B32 /* FMTConfig.h */; };
+		B9BD41710A400925005A4D9D /* FMTemplatePrefix.h in Headers */ = {isa = PBXBuildFile; fileRef = B9BD41700A400925005A4D9D /* FMTemplatePrefix.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3F0A79E418DC5C0600A1D720 /* libcurl.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcurl.4.dylib; path = usr/lib/libcurl.4.dylib; sourceTree = SDKROOT; };
+		3F581EE91B5949CC00F2D8C2 /* FMPluginLicence.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FMPluginLicence.cpp; sourceTree = "<group>"; };
+		3F581EEA1B5949CC00F2D8C2 /* FMPluginLicence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMPluginLicence.h; sourceTree = "<group>"; };
+		3F581EEB1B5949CC00F2D8C2 /* LBFMPluginClearRequest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LBFMPluginClearRequest.cpp; sourceTree = "<group>"; };
+		3F581EEC1B5949CC00F2D8C2 /* LBFMPluginClearRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBFMPluginClearRequest.h; sourceTree = "<group>"; };
+		3F581EED1B5949CC00F2D8C2 /* LBFMPluginGetAllProperties.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LBFMPluginGetAllProperties.cpp; sourceTree = "<group>"; };
+		3F581EEE1B5949CC00F2D8C2 /* LBFMPluginGetAllProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBFMPluginGetAllProperties.h; sourceTree = "<group>"; };
+		3F581EEF1B5949CC00F2D8C2 /* LBFMPluginGetProperty.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LBFMPluginGetProperty.cpp; sourceTree = "<group>"; };
+		3F581EF01B5949CC00F2D8C2 /* LBFMPluginGetProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBFMPluginGetProperty.h; sourceTree = "<group>"; };
+		3F581EF11B5949CC00F2D8C2 /* LBFMPluginGetRecordCount.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LBFMPluginGetRecordCount.cpp; sourceTree = "<group>"; };
+		3F581EF21B5949CC00F2D8C2 /* LBFMPluginGetRecordCount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBFMPluginGetRecordCount.h; sourceTree = "<group>"; };
+		3F581EF31B5949CC00F2D8C2 /* LBFMPluginGetRecordVarNames.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LBFMPluginGetRecordVarNames.cpp; sourceTree = "<group>"; };
+		3F581EF41B5949CC00F2D8C2 /* LBFMPluginGetRecordVarNames.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBFMPluginGetRecordVarNames.h; sourceTree = "<group>"; };
+		3F581EF71B5949CC00F2D8C2 /* LBFMPluginHandler.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LBFMPluginHandler.cpp; sourceTree = "<group>"; };
+		3F581EF81B5949CC00F2D8C2 /* LBFMPluginHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBFMPluginHandler.h; sourceTree = "<group>"; };
+		3F581EF91B5949CC00F2D8C2 /* LBFMPluginSendRequest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LBFMPluginSendRequest.cpp; sourceTree = "<group>"; };
+		3F581EFA1B5949CC00F2D8C2 /* LBFMPluginSendRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBFMPluginSendRequest.h; sourceTree = "<group>"; };
+		3F581EFB1B5949CC00F2D8C2 /* LBFMPluginSetComplexProperty.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LBFMPluginSetComplexProperty.cpp; sourceTree = "<group>"; };
+		3F581EFC1B5949CC00F2D8C2 /* LBFMPluginSetComplexProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBFMPluginSetComplexProperty.h; sourceTree = "<group>"; };
+		3F581EFD1B5949CC00F2D8C2 /* LBFMPluginSetMethod.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LBFMPluginSetMethod.cpp; sourceTree = "<group>"; };
+		3F581EFE1B5949CC00F2D8C2 /* LBFMPluginSetMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBFMPluginSetMethod.h; sourceTree = "<group>"; };
+		3F581EFF1B5949CC00F2D8C2 /* LBFMPluginSetModule.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LBFMPluginSetModule.cpp; sourceTree = "<group>"; };
+		3F581F001B5949CC00F2D8C2 /* LBFMPluginSetModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBFMPluginSetModule.h; sourceTree = "<group>"; };
+		3F581F011B5949CC00F2D8C2 /* LBFMPluginSetProperty.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LBFMPluginSetProperty.cpp; sourceTree = "<group>"; };
+		3F581F021B5949CC00F2D8C2 /* LBFMPluginSetProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBFMPluginSetProperty.h; sourceTree = "<group>"; };
+		3F581F031B5949CC00F2D8C2 /* LBFMPluginTwitterDelete.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LBFMPluginTwitterDelete.cpp; sourceTree = "<group>"; };
+		3F581F041B5949CC00F2D8C2 /* LBFMPluginTwitterDelete.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBFMPluginTwitterDelete.h; sourceTree = "<group>"; };
+		3F581F051B5949CC00F2D8C2 /* LBFMPluginTwitterGetRow.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LBFMPluginTwitterGetRow.cpp; sourceTree = "<group>"; };
+		3F581F061B5949CC00F2D8C2 /* LBFMPluginTwitterGetRow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBFMPluginTwitterGetRow.h; sourceTree = "<group>"; };
+		3F581F071B5949CC00F2D8C2 /* LBFMPluginTwitterPost.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LBFMPluginTwitterPost.cpp; sourceTree = "<group>"; };
+		3F581F081B5949CC00F2D8C2 /* LBFMPluginTwitterPost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBFMPluginTwitterPost.h; sourceTree = "<group>"; };
+		3F581F091B5949CC00F2D8C2 /* LBFMPluginTwitterSetRowCount.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LBFMPluginTwitterSetRowCount.cpp; sourceTree = "<group>"; };
+		3F581F0A1B5949CC00F2D8C2 /* LBFMPluginTwitterSetRowCount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBFMPluginTwitterSetRowCount.h; sourceTree = "<group>"; };
+		3F581F0C1B5949CC00F2D8C2 /* LBJSONRenderFM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBJSONRenderFM.h; sourceTree = "<group>"; };
+		3F581F321B5949E000F2D8C2 /* allocators.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = allocators.h; sourceTree = "<group>"; };
+		3F581F331B5949E000F2D8C2 /* document.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = document.h; sourceTree = "<group>"; };
+		3F581F341B5949E000F2D8C2 /* encodedstream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = encodedstream.h; sourceTree = "<group>"; };
+		3F581F351B5949E000F2D8C2 /* encodings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = encodings.h; sourceTree = "<group>"; };
+		3F581F391B5949E000F2D8C2 /* filereadstream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = filereadstream.h; sourceTree = "<group>"; };
+		3F581F3A1B5949E000F2D8C2 /* filewritestream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = filewritestream.h; sourceTree = "<group>"; };
+		3F581F461B5949E000F2D8C2 /* memorybuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = memorybuffer.h; sourceTree = "<group>"; };
+		3F581F471B5949E000F2D8C2 /* memorystream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = memorystream.h; sourceTree = "<group>"; };
+		3F581F4B1B5949E000F2D8C2 /* prettywriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = prettywriter.h; sourceTree = "<group>"; };
+		3F581F4C1B5949E000F2D8C2 /* rapidjson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rapidjson.h; sourceTree = "<group>"; };
+		3F581F4D1B5949E000F2D8C2 /* reader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = reader.h; sourceTree = "<group>"; };
+		3F581F4E1B5949E000F2D8C2 /* stringbuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stringbuffer.h; sourceTree = "<group>"; };
+		3F581F4F1B5949E000F2D8C2 /* writer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = writer.h; sourceTree = "<group>"; };
+		3F8391841B0A48F500B856E6 /* FMWrapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FMWrapper.framework; path = ../../Support/FMPlugInSDK/Libraries/Mac/FMWrapper.framework; sourceTree = "<group>"; };
+		821E3176078E9069004B645E /* FMPlugin.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = FMPlugin.h; path = ../../Sources/FMPlugin.h; sourceTree = SOURCE_ROOT; };
+		821E3177078E9069004B645E /* FMPluginHandlers.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = FMPluginHandlers.cpp; path = ../../Sources/FMPluginHandlers.cpp; sourceTree = SOURCE_ROOT; };
+		821E3178078E9069004B645E /* FMPluginVersion.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = FMPluginVersion.cpp; path = ../../Sources/FMPluginVersion.cpp; sourceTree = SOURCE_ROOT; };
+		821E317C078E9069004B645E /* FMXBinaryData.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = FMXBinaryData.h; path = ../../Support/FMPlugInSDK/Headers/FMWrapper/FMXBinaryData.h; sourceTree = SOURCE_ROOT; };
+		821E317D078E9069004B645E /* FMXCalcEngine.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = FMXCalcEngine.h; path = ../../Support/FMPlugInSDK/Headers/FMWrapper/FMXCalcEngine.h; sourceTree = SOURCE_ROOT; };
+		821E317E078E9069004B645E /* FMXClient.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = FMXClient.h; path = ../../Support/FMPlugInSDK/Headers/FMWrapper/FMXClient.h; sourceTree = SOURCE_ROOT; };
+		821E317F078E9069004B645E /* FMXData.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = FMXData.h; path = ../../Support/FMPlugInSDK/Headers/FMWrapper/FMXData.h; sourceTree = SOURCE_ROOT; };
+		821E3180078E9069004B645E /* FMXDateTime.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = FMXDateTime.h; path = ../../Support/FMPlugInSDK/Headers/FMWrapper/FMXDateTime.h; sourceTree = SOURCE_ROOT; };
+		821E3181078E9069004B645E /* FMXExtern.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = FMXExtern.h; path = ../../Support/FMPlugInSDK/Headers/FMWrapper/FMXExtern.h; sourceTree = SOURCE_ROOT; };
+		821E3182078E9069004B645E /* FMXFixPt.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = FMXFixPt.h; path = ../../Support/FMPlugInSDK/Headers/FMWrapper/FMXFixPt.h; sourceTree = SOURCE_ROOT; };
+		821E3183078E9069004B645E /* FMXText.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = FMXText.h; path = ../../Support/FMPlugInSDK/Headers/FMWrapper/FMXText.h; sourceTree = SOURCE_ROOT; };
+		821E3184078E9069004B645E /* FMXTextStyle.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = FMXTextStyle.h; path = ../../Support/FMPlugInSDK/Headers/FMWrapper/FMXTextStyle.h; sourceTree = SOURCE_ROOT; };
+		821E3185078E9069004B645E /* FMXTypes.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = FMXTypes.h; path = ../../Support/FMPlugInSDK/Headers/FMWrapper/FMXTypes.h; sourceTree = SOURCE_ROOT; };
+		821E3187078E9069004B645E /* FMTemplate.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = FMTemplate.h; path = ../../Support/FMTemplate/FMTemplate.h; sourceTree = SOURCE_ROOT; };
+		821E3188078E9069004B645E /* FMTemplate.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = FMTemplate.cpp; path = ../../Support/FMTemplate/FMTemplate.cpp; sourceTree = SOURCE_ROOT; };
+		821E318A078E9069004B645E /* FMUtils.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = FMUtils.h; path = ../../Support/FMTemplate/FMUtils.h; sourceTree = SOURCE_ROOT; };
+		821E318B078E9069004B645E /* FMUtils.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = FMUtils.cpp; path = ../../Support/FMTemplate/FMUtils.cpp; sourceTree = SOURCE_ROOT; };
+		821E31C4078E906C004B645E /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
+		8268659E0797E91A006EAC37 /* infoplist.template */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; path = infoplist.template; sourceTree = "<group>"; };
+		8268659F0797E91A006EAC37 /* localizablestrings.template */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; path = localizablestrings.template; sourceTree = "<group>"; };
+		826865A00797E91A006EAC37 /* 24u_plist_compiler.sh */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.script.sh; path = 24u_plist_compiler.sh; sourceTree = "<group>"; };
+		826865A10797E91A006EAC37 /* myplc.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = myplc.c; sourceTree = "<group>"; };
+		82D72FDF07BE25630063F5A9 /* Sync2APIDebug32.fmplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Sync2APIDebug32.fmplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		82E58B830795DF7900592B32 /* FMTConfig.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = FMTConfig.h; path = ../../Sources/FMTConfig.h; sourceTree = SOURCE_ROOT; };
+		B9BD41700A400925005A4D9D /* FMTemplatePrefix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMTemplatePrefix.h; path = ../../Support/FMTemplate/FMTemplatePrefix.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		821E3170078E9069004B645E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F8391851B0A48F500B856E6 /* FMWrapper.framework in Frameworks */,
+				3F0A79E518DC5C0600A1D720 /* libcurl.4.dylib in Frameworks */,
+				821E31C6078E906C004B645E /* Carbon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F581EE81B5949CC00F2D8C2 /* LBResources */ = {
+			isa = PBXGroup;
+			children = (
+				3F581EE91B5949CC00F2D8C2 /* FMPluginLicence.cpp */,
+				3F581EEA1B5949CC00F2D8C2 /* FMPluginLicence.h */,
+				3F581EEB1B5949CC00F2D8C2 /* LBFMPluginClearRequest.cpp */,
+				3F581EEC1B5949CC00F2D8C2 /* LBFMPluginClearRequest.h */,
+				3F581EED1B5949CC00F2D8C2 /* LBFMPluginGetAllProperties.cpp */,
+				3F581EEE1B5949CC00F2D8C2 /* LBFMPluginGetAllProperties.h */,
+				3F581EEF1B5949CC00F2D8C2 /* LBFMPluginGetProperty.cpp */,
+				3F581EF01B5949CC00F2D8C2 /* LBFMPluginGetProperty.h */,
+				3F581EF11B5949CC00F2D8C2 /* LBFMPluginGetRecordCount.cpp */,
+				3F581EF21B5949CC00F2D8C2 /* LBFMPluginGetRecordCount.h */,
+				3F581EF31B5949CC00F2D8C2 /* LBFMPluginGetRecordVarNames.cpp */,
+				3F581EF41B5949CC00F2D8C2 /* LBFMPluginGetRecordVarNames.h */,
+				3F581EF71B5949CC00F2D8C2 /* LBFMPluginHandler.cpp */,
+				3F581EF81B5949CC00F2D8C2 /* LBFMPluginHandler.h */,
+				3F581EF91B5949CC00F2D8C2 /* LBFMPluginSendRequest.cpp */,
+				3F581EFA1B5949CC00F2D8C2 /* LBFMPluginSendRequest.h */,
+				3F581EFB1B5949CC00F2D8C2 /* LBFMPluginSetComplexProperty.cpp */,
+				3F581EFC1B5949CC00F2D8C2 /* LBFMPluginSetComplexProperty.h */,
+				3F581EFD1B5949CC00F2D8C2 /* LBFMPluginSetMethod.cpp */,
+				3F581EFE1B5949CC00F2D8C2 /* LBFMPluginSetMethod.h */,
+				3F581EFF1B5949CC00F2D8C2 /* LBFMPluginSetModule.cpp */,
+				3F581F001B5949CC00F2D8C2 /* LBFMPluginSetModule.h */,
+				3F581F011B5949CC00F2D8C2 /* LBFMPluginSetProperty.cpp */,
+				3F581F021B5949CC00F2D8C2 /* LBFMPluginSetProperty.h */,
+				3F581F031B5949CC00F2D8C2 /* LBFMPluginTwitterDelete.cpp */,
+				3F581F041B5949CC00F2D8C2 /* LBFMPluginTwitterDelete.h */,
+				3F581F051B5949CC00F2D8C2 /* LBFMPluginTwitterGetRow.cpp */,
+				3F581F061B5949CC00F2D8C2 /* LBFMPluginTwitterGetRow.h */,
+				3F581F071B5949CC00F2D8C2 /* LBFMPluginTwitterPost.cpp */,
+				3F581F081B5949CC00F2D8C2 /* LBFMPluginTwitterPost.h */,
+				3F581F091B5949CC00F2D8C2 /* LBFMPluginTwitterSetRowCount.cpp */,
+				3F581F0A1B5949CC00F2D8C2 /* LBFMPluginTwitterSetRowCount.h */,
+				3F581F0C1B5949CC00F2D8C2 /* LBJSONRenderFM.h */,
+			);
+			name = LBResources;
+			path = ../../LBResources;
+			sourceTree = "<group>";
+		};
+		3F581F311B5949E000F2D8C2 /* rapidjson */ = {
+			isa = PBXGroup;
+			children = (
+				3F581F321B5949E000F2D8C2 /* allocators.h */,
+				3F581F331B5949E000F2D8C2 /* document.h */,
+				3F581F341B5949E000F2D8C2 /* encodedstream.h */,
+				3F581F351B5949E000F2D8C2 /* encodings.h */,
+				3F581F391B5949E000F2D8C2 /* filereadstream.h */,
+				3F581F3A1B5949E000F2D8C2 /* filewritestream.h */,
+				3F581F461B5949E000F2D8C2 /* memorybuffer.h */,
+				3F581F471B5949E000F2D8C2 /* memorystream.h */,
+				3F581F4B1B5949E000F2D8C2 /* prettywriter.h */,
+				3F581F4C1B5949E000F2D8C2 /* rapidjson.h */,
+				3F581F4D1B5949E000F2D8C2 /* reader.h */,
+				3F581F4E1B5949E000F2D8C2 /* stringbuffer.h */,
+				3F581F4F1B5949E000F2D8C2 /* writer.h */,
+			);
+			name = rapidjson;
+			path = ../../rapidjson;
+			sourceTree = "<group>";
+		};
+		821E3161078E9068004B645E = {
+			isa = PBXGroup;
+			children = (
+				3F581F311B5949E000F2D8C2 /* rapidjson */,
+				3F581EE81B5949CC00F2D8C2 /* LBResources */,
+				821E3174078E9069004B645E /* Sources */,
+				821E3179078E9069004B645E /* Resources */,
+				821E317A078E9069004B645E /* Support */,
+				821E318C078E9069004B645E /* Libraries */,
+				821E31C3078E906C004B645E /* Frameworks */,
+				82D72FDF07BE25630063F5A9 /* Sync2APIDebug32.fmplugin */,
+			);
+			sourceTree = "<group>";
+		};
+		821E3174078E9069004B645E /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				821E3176078E9069004B645E /* FMPlugin.h */,
+				82E58B830795DF7900592B32 /* FMTConfig.h */,
+				821E3177078E9069004B645E /* FMPluginHandlers.cpp */,
+				821E3178078E9069004B645E /* FMPluginVersion.cpp */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		821E3179078E9069004B645E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		821E317A078E9069004B645E /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				8268659D0797E91A006EAC37 /* XCode */,
+				821E317B078E9069004B645E /* FMPlugInSDK */,
+				821E3186078E9069004B645E /* FMTemplate */,
+			);
+			name = Support;
+			sourceTree = "<group>";
+		};
+		821E317B078E9069004B645E /* FMPlugInSDK */ = {
+			isa = PBXGroup;
+			children = (
+				821E317C078E9069004B645E /* FMXBinaryData.h */,
+				821E317D078E9069004B645E /* FMXCalcEngine.h */,
+				821E317E078E9069004B645E /* FMXClient.h */,
+				821E317F078E9069004B645E /* FMXData.h */,
+				821E3180078E9069004B645E /* FMXDateTime.h */,
+				821E3181078E9069004B645E /* FMXExtern.h */,
+				821E3182078E9069004B645E /* FMXFixPt.h */,
+				821E3183078E9069004B645E /* FMXText.h */,
+				821E3184078E9069004B645E /* FMXTextStyle.h */,
+				821E3185078E9069004B645E /* FMXTypes.h */,
+			);
+			name = FMPlugInSDK;
+			sourceTree = "<group>";
+		};
+		821E3186078E9069004B645E /* FMTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				821E3187078E9069004B645E /* FMTemplate.h */,
+				821E3188078E9069004B645E /* FMTemplate.cpp */,
+				821E318A078E9069004B645E /* FMUtils.h */,
+				821E318B078E9069004B645E /* FMUtils.cpp */,
+				B9BD41700A400925005A4D9D /* FMTemplatePrefix.h */,
+			);
+			name = FMTemplate;
+			sourceTree = "<group>";
+		};
+		821E318C078E9069004B645E /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		821E31C3078E906C004B645E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F8391841B0A48F500B856E6 /* FMWrapper.framework */,
+				3F0A79E418DC5C0600A1D720 /* libcurl.4.dylib */,
+				821E31C4078E906C004B645E /* Carbon.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8268659D0797E91A006EAC37 /* XCode */ = {
+			isa = PBXGroup;
+			children = (
+				8268659E0797E91A006EAC37 /* infoplist.template */,
+				8268659F0797E91A006EAC37 /* localizablestrings.template */,
+				826865A00797E91A006EAC37 /* 24u_plist_compiler.sh */,
+				826865A10797E91A006EAC37 /* myplc.c */,
+			);
+			name = XCode;
+			path = ../../Support/XCode;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		821E316D078E9069004B645E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				821E31AC078E906A004B645E /* FMTemplate.h in Headers */,
+				821E31B0078E906A004B645E /* FMXCalcEngine.h in Headers */,
+				821E31B1078E906A004B645E /* FMXBinaryData.h in Headers */,
+				821E31B2078E906A004B645E /* FMXDateTime.h in Headers */,
+				3F581F2E1B5949CC00F2D8C2 /* LBFMPluginTwitterSetRowCount.h in Headers */,
+				3F581F671B5949E000F2D8C2 /* rapidjson.h in Headers */,
+				3F581F631B5949E000F2D8C2 /* memorystream.h in Headers */,
+				3F581F571B5949E000F2D8C2 /* filewritestream.h in Headers */,
+				3F581F101B5949CC00F2D8C2 /* LBFMPluginClearRequest.h in Headers */,
+				3F581F621B5949E000F2D8C2 /* memorybuffer.h in Headers */,
+				821E31B3078E906A004B645E /* FMXData.h in Headers */,
+				3F581F181B5949CC00F2D8C2 /* LBFMPluginGetRecordVarNames.h in Headers */,
+				3F581F241B5949CC00F2D8C2 /* LBFMPluginSetModule.h in Headers */,
+				3F581F661B5949E000F2D8C2 /* prettywriter.h in Headers */,
+				821E31B4078E906A004B645E /* FMXClient.h in Headers */,
+				3F581F501B5949E000F2D8C2 /* allocators.h in Headers */,
+				3F581F1E1B5949CC00F2D8C2 /* LBFMPluginSendRequest.h in Headers */,
+				3F581F201B5949CC00F2D8C2 /* LBFMPluginSetComplexProperty.h in Headers */,
+				821E31B5078E906A004B645E /* FMXTypes.h in Headers */,
+				3F581F561B5949E000F2D8C2 /* filereadstream.h in Headers */,
+				3F581F161B5949CC00F2D8C2 /* LBFMPluginGetRecordCount.h in Headers */,
+				3F581F2C1B5949CC00F2D8C2 /* LBFMPluginTwitterPost.h in Headers */,
+				821E31B6078E906A004B645E /* FMXTextStyle.h in Headers */,
+				821E31B7078E906A004B645E /* FMXText.h in Headers */,
+				3F581F2A1B5949CC00F2D8C2 /* LBFMPluginTwitterGetRow.h in Headers */,
+				821E31B8078E906A004B645E /* FMXFixPt.h in Headers */,
+				821E31B9078E906A004B645E /* FMXExtern.h in Headers */,
+				3F581F511B5949E000F2D8C2 /* document.h in Headers */,
+				3F581F261B5949CC00F2D8C2 /* LBFMPluginSetProperty.h in Headers */,
+				3F581F531B5949E000F2D8C2 /* encodings.h in Headers */,
+				3F581F121B5949CC00F2D8C2 /* LBFMPluginGetAllProperties.h in Headers */,
+				3F581F6A1B5949E000F2D8C2 /* writer.h in Headers */,
+				3F581F221B5949CC00F2D8C2 /* LBFMPluginSetMethod.h in Headers */,
+				821E31BC078E906A004B645E /* FMUtils.h in Headers */,
+				3F581F0E1B5949CC00F2D8C2 /* FMPluginLicence.h in Headers */,
+				821E31BE078E906A004B645E /* FMPlugin.h in Headers */,
+				82E58B840795DF7900592B32 /* FMTConfig.h in Headers */,
+				3F581F691B5949E000F2D8C2 /* stringbuffer.h in Headers */,
+				B9BD41710A400925005A4D9D /* FMTemplatePrefix.h in Headers */,
+				3F581F681B5949E000F2D8C2 /* reader.h in Headers */,
+				3F581F141B5949CC00F2D8C2 /* LBFMPluginGetProperty.h in Headers */,
+				3F581F1C1B5949CC00F2D8C2 /* LBFMPluginHandler.h in Headers */,
+				3F581F281B5949CC00F2D8C2 /* LBFMPluginTwitterDelete.h in Headers */,
+				3F581F521B5949E000F2D8C2 /* encodedstream.h in Headers */,
+				3F581F301B5949CC00F2D8C2 /* LBJSONRenderFM.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		821E3172078E9069004B645E /* FMPlugin Mac OS X */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9CC614C0A3F262D007E1972 /* Build configuration list for PBXNativeTarget "FMPlugin Mac OS X" */;
+			buildPhases = (
+				821E316D078E9069004B645E /* Headers */,
+				821E316E078E9069004B645E /* Sources */,
+				821E316F078E9069004B645E /* Resources */,
+				821E3170078E9069004B645E /* Frameworks */,
+				821E3171078E9069004B645E /* Rez */,
+				821D6C120790416A00D2EE80 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FMPlugin Mac OS X";
+			productName = "FMPlugin Mac OS X Release";
+			productReference = 82D72FDF07BE25630063F5A9 /* Sync2APIDebug32.fmplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		821E31C7078E906C004B645E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+			};
+			buildConfigurationList = B9CC61500A3F262E007E1972 /* Build configuration list for PBXProject "PlugInTemplate" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 821E3161078E9068004B645E;
+			productRefGroup = 821E3161078E9068004B645E;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				821E3172078E9069004B645E /* FMPlugin Mac OS X */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		821E316F078E9069004B645E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		821E3171078E9069004B645E /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		821D6C120790416A00D2EE80 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				$BUILD_DIR/$EXECUTABLE_PATH,
+				../../Support/XCode/localizablestrings.template,
+				../../Support/XCode/infoplist.template,
+				../../Support/XCode/myplc.c,
+				../../Support/XCode/24u_plist_compiler.sh,
+			);
+			outputPaths = (
+				$BUILD_DIR/$INFOPLIST_PATH,
+				$BUILD_DIR/$UNLOCALIZED_RESOURCES_FOLDER_PATH/English.lproj/Localizable.strings,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export PROJECT_DIR=`pwd`\nexport XCODE_SUPPORT_DIR=\"$PROJECT_DIR/../../Support/XCode\"\n\ngcc -E -P  -I\"$PROJECT_DIR/../../Sources\"   \"$XCODE_SUPPORT_DIR/myplc.c\" | grep my_ |\"$XCODE_SUPPORT_DIR/24u_plist_compiler.sh\"\n\n# Create the file Pckginfo\necho \"BNDL????\" > \"$BUILD_DIR/$PKGINFO_PATH\"\n\n\n#sudo cp \"$PROJECT_DIR/../../Output/Sync2APIDebug.fmplugin\" \"/Applications/FileMaker Pro 13 Advanced/Extensions\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		821E316E078E9069004B645E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F581F1F1B5949CC00F2D8C2 /* LBFMPluginSetComplexProperty.cpp in Sources */,
+				3F581F171B5949CC00F2D8C2 /* LBFMPluginGetRecordVarNames.cpp in Sources */,
+				3F581F211B5949CC00F2D8C2 /* LBFMPluginSetMethod.cpp in Sources */,
+				3F581F2B1B5949CC00F2D8C2 /* LBFMPluginTwitterPost.cpp in Sources */,
+				821E31AB078E906A004B645E /* FMTemplate.cpp in Sources */,
+				3F581F251B5949CC00F2D8C2 /* LBFMPluginSetProperty.cpp in Sources */,
+				3F581F1D1B5949CC00F2D8C2 /* LBFMPluginSendRequest.cpp in Sources */,
+				3F581F0D1B5949CC00F2D8C2 /* FMPluginLicence.cpp in Sources */,
+				3F581F1B1B5949CC00F2D8C2 /* LBFMPluginHandler.cpp in Sources */,
+				821E31BD078E906A004B645E /* FMUtils.cpp in Sources */,
+				3F581F271B5949CC00F2D8C2 /* LBFMPluginTwitterDelete.cpp in Sources */,
+				821E31BF078E906A004B645E /* FMPluginHandlers.cpp in Sources */,
+				3F581F231B5949CC00F2D8C2 /* LBFMPluginSetModule.cpp in Sources */,
+				821E31C0078E906A004B645E /* FMPluginVersion.cpp in Sources */,
+				3F581F0F1B5949CC00F2D8C2 /* LBFMPluginClearRequest.cpp in Sources */,
+				3F581F291B5949CC00F2D8C2 /* LBFMPluginTwitterGetRow.cpp in Sources */,
+				3F581F2D1B5949CC00F2D8C2 /* LBFMPluginTwitterSetRowCount.cpp in Sources */,
+				3F581F111B5949CC00F2D8C2 /* LBFMPluginGetAllProperties.cpp in Sources */,
+				3F581F131B5949CC00F2D8C2 /* LBFMPluginGetProperty.cpp in Sources */,
+				3F581F151B5949CC00F2D8C2 /* LBFMPluginGetRecordCount.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B9CC614D0A3F262D007E1972 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = ../../Output;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					../../Support/FMPlugInSDK/Libraries/Mac,
+					/Users/warrentucker/projects/Sync2API_Interface/Sync2API/Support/FMPlugInSDK/Libraries/Mac,
+				);
+				GCC_C_LANGUAGE_STANDARD = c11;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/../../Support/FMTemplate/FMTemplatePrefix.h";
+				GCC_PREPROCESSOR_DEFINITIONS = "FMPLUGIN_DEBUG=1";
+				HEADER_SEARCH_PATHS = (
+					../../Support,
+					/usr/local/opt/boost/include,
+					"\"/Users/warrentucker/project resources/C++/libjson\"",
+				);
+				LIBRARY_SEARCH_PATHS = /usr/local/opt/boost/lib;
+				OTHER_CFLAGS = "-fno-constant-cfstrings";
+				PRODUCT_NAME = Sync2APIDebug32;
+				SDKROOT = macosx;
+				VALID_ARCHS = "i386 x64 x86_64";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = fmplugin;
+			};
+			name = Debug;
+		};
+		B9CC614E0A3F262D007E1972 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEPLOYMENT_POSTPROCESSING = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					../../Support/FMPlugInSDK/Libraries/Mac,
+					/Users/warrentucker/projects/Sync2API_Interface/Sync2API/Support/FMPlugInSDK/Libraries/Mac,
+				);
+				GCC_C_LANGUAGE_STANDARD = c11;
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/../../Support/FMTemplate/FMTemplatePrefix.h";
+				GCC_PREPROCESSOR_DEFINITIONS = "FMPLUGIN_DEBUG=0";
+				HEADER_SEARCH_PATHS = (
+					../../Support,
+					/usr/local/opt/boost/include,
+					"\"/Users/warrentucker/project resources/C++/libjson\"",
+				);
+				LIBRARY_SEARCH_PATHS = /usr/local/opt/boost/lib;
+				OTHER_CFLAGS = "-fno-constant-cfstrings";
+				PRODUCT_NAME = Sync2API32;
+				SDKROOT = macosx;
+				STRIP_INSTALLED_PRODUCT = YES;
+				STRIP_STYLE = all;
+				VALID_ARCHS = "i386 x64 x86_64";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = fmplugin;
+			};
+			name = Release;
+		};
+		B9CC61510A3F262E007E1972 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CONFIGURATION_BUILD_DIR = ../../Output;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = c11;
+				GCC_PREFIX_HEADER = /Developer/SDks/MacOSX10.4.sdk/Developer/Headers/FlatCarbon/Carbon.h;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				OBJROOT = ../../Temp;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SYMROOT = ../../Output;
+			};
+			name = Debug;
+		};
+		B9CC61520A3F262E007E1972 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CONFIGURATION_BUILD_DIR = ../../Output;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEPLOYMENT_POSTPROCESSING = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = c11;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				OBJROOT = ../../Temp;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = macosx;
+				SYMROOT = ../../Output;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B9CC614C0A3F262D007E1972 /* Build configuration list for PBXNativeTarget "FMPlugin Mac OS X" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9CC614D0A3F262D007E1972 /* Debug */,
+				B9CC614E0A3F262D007E1972 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B9CC61500A3F262E007E1972 /* Build configuration list for PBXProject "PlugInTemplate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9CC61510A3F262E007E1972 /* Debug */,
+				B9CC61520A3F262E007E1972 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 821E31C7078E906C004B645E /* Project object */;
+}

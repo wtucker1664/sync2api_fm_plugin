@@ -1,0 +1,564 @@
+﻿Build started 8/7/2015 2:55:23 PM.
+     1>Project "Z:\projects\Sync2API_FM_Plugin\Sync2API\Projects\VisualStudio 2010\PlugInTemplate.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IC:\Users\Administrator\Documents\boost\boost_1_55_0 /I"C:\Users\Administrator\Documents\libcurl\curl-7.40.0-devel-mingw32\include" /I"Z:\projects\Sync2API_FM_Plugin\Sync2API\Projects\VisualStudio 2010\..\..\Sources" /I"Z:\projects\Sync2API_FM_Plugin\Sync2API\Projects\VisualStudio 2010\..\..\Support" /I"Z:\projects\Sync2API_FM_Plugin\Sync2API\Projects\VisualStudio 2010\..\..\Support\FMPlugInSDK\Headers" /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D FMTEMPLATE21_EXPORTS /D _CRT_SECURE_NO_WARNINGS /D _HAS_ITERATOR_DEBUGGING=0 /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MTd /Zp8 /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Z:\projects\Sync2API_FM_Plugin\Sync2API\Projects\VisualStudio 2010\..\..\Temp\Debug\\" /Fd"Z:\projects\Sync2API_FM_Plugin\Sync2API\Projects\VisualStudio 2010\..\..\Temp\Debug\vc110.pdb" /Gd /TP /wd4068 /FI"Z:\projects\Sync2API_FM_Plugin\Sync2API\Projects\VisualStudio 2010\..\..\Support\VisualStudio\stdafx.h" /analyze- /errorReport:prompt ..\..\LBResources\FMPluginLicence.cpp ..\..\LBResources\LBFMPluginClearRequest.cpp ..\..\LBResources\LBFMPluginGetAllProperties.cpp ..\..\LBResources\LBFMPluginGetProperty.cpp ..\..\LBResources\LBFMPluginGetRecordCount.cpp ..\..\LBResources\LBFMPluginGetRecordVarNames.cpp "..\..\LBResources\LBFMPluginHandler copy.cpp" ..\..\LBResources\LBFMPluginHandler.cpp ..\..\LBResources\LBFMPluginSendRequest.cpp ..\..\LBResources\LBFMPluginSetComplexProperty.cpp ..\..\LBResources\LBFMPluginSetMethod.cpp ..\..\LBResources\LBFMPluginSetModule.cpp ..\..\LBResources\LBFMPluginSetProperty.cpp ..\..\LBResources\LBFMPluginTwitterDelete.cpp ..\..\LBResources\LBFMPluginTwitterGetRow.cpp ..\..\LBResources\LBFMPluginTwitterPost.cpp ..\..\LBResources\LBFMPluginTwitterSetRowCount.cpp
+         LBFMPluginTwitterSetRowCount.cpp
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(750): error C2061: syntax error : identifier '{ctor}'
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(806): error C2864: 'LB::LBJSONRenderFM::init' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(809): error C2864: 'LB::LBJSONRenderFM::useDebug' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(810): error C2864: 'LB::LBJSONRenderFM::useLBDebug' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(811): error C2864: 'LB::LBJSONRenderFM::errorCount' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(816): error C2864: 'LB::LBJSONRenderFM::module' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(817): error C2864: 'LB::LBJSONRenderFM::method' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(818): error C2864: 'LB::LBJSONRenderFM::cKey' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(819): error C2864: 'LB::LBJSONRenderFM::scKey' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(821): warning C4291: 'void *operator new(size_t)' : no matching operator delete found; memory will not be freed if initialization throws an exception
+                 predefined C++ types (compiler internal)(23) : see declaration of 'operator new'
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(821): error C2864: 'LB::LBJSONRenderFM::record' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(823): warning C4291: 'void *operator new(size_t)' : no matching operator delete found; memory will not be freed if initialization throws an exception
+                 predefined C++ types (compiler internal)(23) : see declaration of 'operator new'
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(823): error C2864: 'LB::LBJSONRenderFM::error' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(824): warning C4291: 'void *operator new(size_t)' : no matching operator delete found; memory will not be freed if initialization throws an exception
+                 predefined C++ types (compiler internal)(23) : see declaration of 'operator new'
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(824): error C2864: 'LB::LBJSONRenderFM::postVars' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(1149): warning C4522: 'LB::LBJSONRenderFM' : multiple assignment operators specified
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(755): error C2065: 'doc' : undeclared identifier
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(755): error C2228: left of '.IsObject' must have class/struct/union
+                 type is ''unknown-type''
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(757): error C2065: 'doc' : undeclared identifier
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(762): error C2065: 'doc' : undeclared identifier
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(762): error C2228: left of '.IsArray' must have class/struct/union
+                 type is ''unknown-type''
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(765): error C2065: 'doc' : undeclared identifier
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(765): error C2228: left of '.Size' must have class/struct/union
+                 type is ''unknown-type''
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(769): error C2065: 'doc' : undeclared identifier
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(1108): error C2660: 'LB::LBJSONRenderFM::processDocument' : function does not take 1 arguments
+         LBFMPluginTwitterPost.cpp
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(750): error C2061: syntax error : identifier '{ctor}'
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(806): error C2864: 'LB::LBJSONRenderFM::init' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(809): error C2864: 'LB::LBJSONRenderFM::useDebug' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(810): error C2864: 'LB::LBJSONRenderFM::useLBDebug' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(811): error C2864: 'LB::LBJSONRenderFM::errorCount' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(816): error C2864: 'LB::LBJSONRenderFM::module' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(817): error C2864: 'LB::LBJSONRenderFM::method' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(818): error C2864: 'LB::LBJSONRenderFM::cKey' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(819): error C2864: 'LB::LBJSONRenderFM::scKey' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(821): warning C4291: 'void *operator new(size_t)' : no matching operator delete found; memory will not be freed if initialization throws an exception
+                 predefined C++ types (compiler internal)(23) : see declaration of 'operator new'
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(821): error C2864: 'LB::LBJSONRenderFM::record' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(823): warning C4291: 'void *operator new(size_t)' : no matching operator delete found; memory will not be freed if initialization throws an exception
+                 predefined C++ types (compiler internal)(23) : see declaration of 'operator new'
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(823): error C2864: 'LB::LBJSONRenderFM::error' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(824): warning C4291: 'void *operator new(size_t)' : no matching operator delete found; memory will not be freed if initialization throws an exception
+                 predefined C++ types (compiler internal)(23) : see declaration of 'operator new'
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(824): error C2864: 'LB::LBJSONRenderFM::postVars' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(1149): warning C4522: 'LB::LBJSONRenderFM' : multiple assignment operators specified
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(755): error C2065: 'doc' : undeclared identifier
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(755): error C2228: left of '.IsObject' must have class/struct/union
+                 type is ''unknown-type''
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(757): error C2065: 'doc' : undeclared identifier
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(762): error C2065: 'doc' : undeclared identifier
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(762): error C2228: left of '.IsArray' must have class/struct/union
+                 type is ''unknown-type''
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(765): error C2065: 'doc' : undeclared identifier
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(765): error C2228: left of '.Size' must have class/struct/union
+                 type is ''unknown-type''
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(769): error C2065: 'doc' : undeclared identifier
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(1108): error C2660: 'LB::LBJSONRenderFM::processDocument' : function does not take 1 arguments
+         LBFMPluginTwitterGetRow.cpp
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(750): error C2061: syntax error : identifier '{ctor}'
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(806): error C2864: 'LB::LBJSONRenderFM::init' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(809): error C2864: 'LB::LBJSONRenderFM::useDebug' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(810): error C2864: 'LB::LBJSONRenderFM::useLBDebug' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(811): error C2864: 'LB::LBJSONRenderFM::errorCount' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(816): error C2864: 'LB::LBJSONRenderFM::module' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(817): error C2864: 'LB::LBJSONRenderFM::method' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(818): error C2864: 'LB::LBJSONRenderFM::cKey' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(819): error C2864: 'LB::LBJSONRenderFM::scKey' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(821): warning C4291: 'void *operator new(size_t)' : no matching operator delete found; memory will not be freed if initialization throws an exception
+                 predefined C++ types (compiler internal)(23) : see declaration of 'operator new'
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(821): error C2864: 'LB::LBJSONRenderFM::record' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(823): warning C4291: 'void *operator new(size_t)' : no matching operator delete found; memory will not be freed if initialization throws an exception
+                 predefined C++ types (compiler internal)(23) : see declaration of 'operator new'
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(823): error C2864: 'LB::LBJSONRenderFM::error' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(824): warning C4291: 'void *operator new(size_t)' : no matching operator delete found; memory will not be freed if initialization throws an exception
+                 predefined C++ types (compiler internal)(23) : see declaration of 'operator new'
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(824): error C2864: 'LB::LBJSONRenderFM::postVars' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(1149): warning C4522: 'LB::LBJSONRenderFM' : multiple assignment operators specified
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(755): error C2065: 'doc' : undeclared identifier
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(755): error C2228: left of '.IsObject' must have class/struct/union
+                 type is ''unknown-type''
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(757): error C2065: 'doc' : undeclared identifier
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(762): error C2065: 'doc' : undeclared identifier
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(762): error C2228: left of '.IsArray' must have class/struct/union
+                 type is ''unknown-type''
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(765): error C2065: 'doc' : undeclared identifier
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(765): error C2228: left of '.Size' must have class/struct/union
+                 type is ''unknown-type''
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(769): error C2065: 'doc' : undeclared identifier
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(1108): error C2660: 'LB::LBJSONRenderFM::processDocument' : function does not take 1 arguments
+         LBFMPluginTwitterDelete.cpp
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(750): error C2061: syntax error : identifier '{ctor}'
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(806): error C2864: 'LB::LBJSONRenderFM::init' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(809): error C2864: 'LB::LBJSONRenderFM::useDebug' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(810): error C2864: 'LB::LBJSONRenderFM::useLBDebug' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(811): error C2864: 'LB::LBJSONRenderFM::errorCount' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(816): error C2864: 'LB::LBJSONRenderFM::module' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(817): error C2864: 'LB::LBJSONRenderFM::method' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(818): error C2864: 'LB::LBJSONRenderFM::cKey' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(819): error C2864: 'LB::LBJSONRenderFM::scKey' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(821): warning C4291: 'void *operator new(size_t)' : no matching operator delete found; memory will not be freed if initialization throws an exception
+                 predefined C++ types (compiler internal)(23) : see declaration of 'operator new'
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(821): error C2864: 'LB::LBJSONRenderFM::record' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(823): warning C4291: 'void *operator new(size_t)' : no matching operator delete found; memory will not be freed if initialization throws an exception
+                 predefined C++ types (compiler internal)(23) : see declaration of 'operator new'
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(823): error C2864: 'LB::LBJSONRenderFM::error' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(824): warning C4291: 'void *operator new(size_t)' : no matching operator delete found; memory will not be freed if initialization throws an exception
+                 predefined C++ types (compiler internal)(23) : see declaration of 'operator new'
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(824): error C2864: 'LB::LBJSONRenderFM::postVars' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(1149): warning C4522: 'LB::LBJSONRenderFM' : multiple assignment operators specified
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(755): error C2065: 'doc' : undeclared identifier
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(755): error C2228: left of '.IsObject' must have class/struct/union
+                 type is ''unknown-type''
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(757): error C2065: 'doc' : undeclared identifier
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(762): error C2065: 'doc' : undeclared identifier
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(762): error C2228: left of '.IsArray' must have class/struct/union
+                 type is ''unknown-type''
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(765): error C2065: 'doc' : undeclared identifier
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(765): error C2228: left of '.Size' must have class/struct/union
+                 type is ''unknown-type''
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(769): error C2065: 'doc' : undeclared identifier
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(1108): error C2660: 'LB::LBJSONRenderFM::processDocument' : function does not take 1 arguments
+         LBFMPluginSetProperty.cpp
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(750): error C2061: syntax error : identifier '{ctor}'
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(806): error C2864: 'LB::LBJSONRenderFM::init' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(809): error C2864: 'LB::LBJSONRenderFM::useDebug' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(810): error C2864: 'LB::LBJSONRenderFM::useLBDebug' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(811): error C2864: 'LB::LBJSONRenderFM::errorCount' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(816): error C2864: 'LB::LBJSONRenderFM::module' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(817): error C2864: 'LB::LBJSONRenderFM::method' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(818): error C2864: 'LB::LBJSONRenderFM::cKey' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(819): error C2864: 'LB::LBJSONRenderFM::scKey' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(821): warning C4291: 'void *operator new(size_t)' : no matching operator delete found; memory will not be freed if initialization throws an exception
+                 predefined C++ types (compiler internal)(23) : see declaration of 'operator new'
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(821): error C2864: 'LB::LBJSONRenderFM::record' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(823): warning C4291: 'void *operator new(size_t)' : no matching operator delete found; memory will not be freed if initialization throws an exception
+                 predefined C++ types (compiler internal)(23) : see declaration of 'operator new'
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(823): error C2864: 'LB::LBJSONRenderFM::error' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(824): warning C4291: 'void *operator new(size_t)' : no matching operator delete found; memory will not be freed if initialization throws an exception
+                 predefined C++ types (compiler internal)(23) : see declaration of 'operator new'
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(824): error C2864: 'LB::LBJSONRenderFM::postVars' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(1149): warning C4522: 'LB::LBJSONRenderFM' : multiple assignment operators specified
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(755): error C2065: 'doc' : undeclared identifier
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(755): error C2228: left of '.IsObject' must have class/struct/union
+                 type is ''unknown-type''
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(757): error C2065: 'doc' : undeclared identifier
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(762): error C2065: 'doc' : undeclared identifier
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(762): error C2228: left of '.IsArray' must have class/struct/union
+                 type is ''unknown-type''
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(765): error C2065: 'doc' : undeclared identifier
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(765): error C2228: left of '.Size' must have class/struct/union
+                 type is ''unknown-type''
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(769): error C2065: 'doc' : undeclared identifier
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(1108): error C2660: 'LB::LBJSONRenderFM::processDocument' : function does not take 1 arguments
+         LBFMPluginSetModule.cpp
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(750): error C2061: syntax error : identifier '{ctor}'
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(806): error C2864: 'LB::LBJSONRenderFM::init' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(809): error C2864: 'LB::LBJSONRenderFM::useDebug' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(810): error C2864: 'LB::LBJSONRenderFM::useLBDebug' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(811): error C2864: 'LB::LBJSONRenderFM::errorCount' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(816): error C2864: 'LB::LBJSONRenderFM::module' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(817): error C2864: 'LB::LBJSONRenderFM::method' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(818): error C2864: 'LB::LBJSONRenderFM::cKey' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(819): error C2864: 'LB::LBJSONRenderFM::scKey' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(821): warning C4291: 'void *operator new(size_t)' : no matching operator delete found; memory will not be freed if initialization throws an exception
+                 predefined C++ types (compiler internal)(23) : see declaration of 'operator new'
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(821): error C2864: 'LB::LBJSONRenderFM::record' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(823): warning C4291: 'void *operator new(size_t)' : no matching operator delete found; memory will not be freed if initialization throws an exception
+                 predefined C++ types (compiler internal)(23) : see declaration of 'operator new'
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(823): error C2864: 'LB::LBJSONRenderFM::error' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(824): warning C4291: 'void *operator new(size_t)' : no matching operator delete found; memory will not be freed if initialization throws an exception
+                 predefined C++ types (compiler internal)(23) : see declaration of 'operator new'
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(824): error C2864: 'LB::LBJSONRenderFM::postVars' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(1149): warning C4522: 'LB::LBJSONRenderFM' : multiple assignment operators specified
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(755): error C2065: 'doc' : undeclared identifier
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(755): error C2228: left of '.IsObject' must have class/struct/union
+                 type is ''unknown-type''
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(757): error C2065: 'doc' : undeclared identifier
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(762): error C2065: 'doc' : undeclared identifier
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(762): error C2228: left of '.IsArray' must have class/struct/union
+                 type is ''unknown-type''
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(765): error C2065: 'doc' : undeclared identifier
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(765): error C2228: left of '.Size' must have class/struct/union
+                 type is ''unknown-type''
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(769): error C2065: 'doc' : undeclared identifier
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(1108): error C2660: 'LB::LBJSONRenderFM::processDocument' : function does not take 1 arguments
+         LBFMPluginSetMethod.cpp
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(750): error C2061: syntax error : identifier '{ctor}'
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(806): error C2864: 'LB::LBJSONRenderFM::init' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(809): error C2864: 'LB::LBJSONRenderFM::useDebug' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(810): error C2864: 'LB::LBJSONRenderFM::useLBDebug' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(811): error C2864: 'LB::LBJSONRenderFM::errorCount' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(816): error C2864: 'LB::LBJSONRenderFM::module' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(817): error C2864: 'LB::LBJSONRenderFM::method' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(818): error C2864: 'LB::LBJSONRenderFM::cKey' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(819): error C2864: 'LB::LBJSONRenderFM::scKey' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(821): warning C4291: 'void *operator new(size_t)' : no matching operator delete found; memory will not be freed if initialization throws an exception
+                 predefined C++ types (compiler internal)(23) : see declaration of 'operator new'
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(821): error C2864: 'LB::LBJSONRenderFM::record' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(823): warning C4291: 'void *operator new(size_t)' : no matching operator delete found; memory will not be freed if initialization throws an exception
+                 predefined C++ types (compiler internal)(23) : see declaration of 'operator new'
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(823): error C2864: 'LB::LBJSONRenderFM::error' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(824): warning C4291: 'void *operator new(size_t)' : no matching operator delete found; memory will not be freed if initialization throws an exception
+                 predefined C++ types (compiler internal)(23) : see declaration of 'operator new'
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(824): error C2864: 'LB::LBJSONRenderFM::postVars' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(1149): warning C4522: 'LB::LBJSONRenderFM' : multiple assignment operators specified
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(755): error C2065: 'doc' : undeclared identifier
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(755): error C2228: left of '.IsObject' must have class/struct/union
+                 type is ''unknown-type''
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(757): error C2065: 'doc' : undeclared identifier
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(762): error C2065: 'doc' : undeclared identifier
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(762): error C2228: left of '.IsArray' must have class/struct/union
+                 type is ''unknown-type''
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(765): error C2065: 'doc' : undeclared identifier
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(765): error C2228: left of '.Size' must have class/struct/union
+                 type is ''unknown-type''
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(769): error C2065: 'doc' : undeclared identifier
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(1108): error C2660: 'LB::LBJSONRenderFM::processDocument' : function does not take 1 arguments
+         LBFMPluginSetComplexProperty.cpp
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(750): error C2061: syntax error : identifier '{ctor}'
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(806): error C2864: 'LB::LBJSONRenderFM::init' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(809): error C2864: 'LB::LBJSONRenderFM::useDebug' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(810): error C2864: 'LB::LBJSONRenderFM::useLBDebug' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(811): error C2864: 'LB::LBJSONRenderFM::errorCount' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(816): error C2864: 'LB::LBJSONRenderFM::module' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(817): error C2864: 'LB::LBJSONRenderFM::method' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(818): error C2864: 'LB::LBJSONRenderFM::cKey' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(819): error C2864: 'LB::LBJSONRenderFM::scKey' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(821): warning C4291: 'void *operator new(size_t)' : no matching operator delete found; memory will not be freed if initialization throws an exception
+                 predefined C++ types (compiler internal)(23) : see declaration of 'operator new'
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(821): error C2864: 'LB::LBJSONRenderFM::record' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(823): warning C4291: 'void *operator new(size_t)' : no matching operator delete found; memory will not be freed if initialization throws an exception
+                 predefined C++ types (compiler internal)(23) : see declaration of 'operator new'
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(823): error C2864: 'LB::LBJSONRenderFM::error' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(824): warning C4291: 'void *operator new(size_t)' : no matching operator delete found; memory will not be freed if initialization throws an exception
+                 predefined C++ types (compiler internal)(23) : see declaration of 'operator new'
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(824): error C2864: 'LB::LBJSONRenderFM::postVars' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(1149): warning C4522: 'LB::LBJSONRenderFM' : multiple assignment operators specified
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(755): error C2065: 'doc' : undeclared identifier
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(755): error C2228: left of '.IsObject' must have class/struct/union
+                 type is ''unknown-type''
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(757): error C2065: 'doc' : undeclared identifier
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(762): error C2065: 'doc' : undeclared identifier
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(762): error C2228: left of '.IsArray' must have class/struct/union
+                 type is ''unknown-type''
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(765): error C2065: 'doc' : undeclared identifier
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(765): error C2228: left of '.Size' must have class/struct/union
+                 type is ''unknown-type''
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(769): error C2065: 'doc' : undeclared identifier
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(1108): error C2660: 'LB::LBJSONRenderFM::processDocument' : function does not take 1 arguments
+         LBFMPluginSendRequest.cpp
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(750): error C2061: syntax error : identifier '{ctor}'
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(806): error C2864: 'LB::LBJSONRenderFM::init' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(809): error C2864: 'LB::LBJSONRenderFM::useDebug' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(810): error C2864: 'LB::LBJSONRenderFM::useLBDebug' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(811): error C2864: 'LB::LBJSONRenderFM::errorCount' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(816): error C2864: 'LB::LBJSONRenderFM::module' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(817): error C2864: 'LB::LBJSONRenderFM::method' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(818): error C2864: 'LB::LBJSONRenderFM::cKey' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(819): error C2864: 'LB::LBJSONRenderFM::scKey' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(821): warning C4291: 'void *operator new(size_t)' : no matching operator delete found; memory will not be freed if initialization throws an exception
+                 predefined C++ types (compiler internal)(23) : see declaration of 'operator new'
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(821): error C2864: 'LB::LBJSONRenderFM::record' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(823): warning C4291: 'void *operator new(size_t)' : no matching operator delete found; memory will not be freed if initialization throws an exception
+                 predefined C++ types (compiler internal)(23) : see declaration of 'operator new'
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(823): error C2864: 'LB::LBJSONRenderFM::error' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(824): warning C4291: 'void *operator new(size_t)' : no matching operator delete found; memory will not be freed if initialization throws an exception
+                 predefined C++ types (compiler internal)(23) : see declaration of 'operator new'
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(824): error C2864: 'LB::LBJSONRenderFM::postVars' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(1149): warning C4522: 'LB::LBJSONRenderFM' : multiple assignment operators specified
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(755): error C2065: 'doc' : undeclared identifier
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(755): error C2228: left of '.IsObject' must have class/struct/union
+                 type is ''unknown-type''
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(757): error C2065: 'doc' : undeclared identifier
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(762): error C2065: 'doc' : undeclared identifier
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(762): error C2228: left of '.IsArray' must have class/struct/union
+                 type is ''unknown-type''
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(765): error C2065: 'doc' : undeclared identifier
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(765): error C2228: left of '.Size' must have class/struct/union
+                 type is ''unknown-type''
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(769): error C2065: 'doc' : undeclared identifier
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(1108): error C2660: 'LB::LBJSONRenderFM::processDocument' : function does not take 1 arguments
+         LBFMPluginHandler.cpp
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(750): error C2061: syntax error : identifier '{ctor}'
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(806): error C2864: 'LB::LBJSONRenderFM::init' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(809): error C2864: 'LB::LBJSONRenderFM::useDebug' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(810): error C2864: 'LB::LBJSONRenderFM::useLBDebug' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(811): error C2864: 'LB::LBJSONRenderFM::errorCount' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(816): error C2864: 'LB::LBJSONRenderFM::module' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(817): error C2864: 'LB::LBJSONRenderFM::method' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(818): error C2864: 'LB::LBJSONRenderFM::cKey' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(819): error C2864: 'LB::LBJSONRenderFM::scKey' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(821): warning C4291: 'void *operator new(size_t)' : no matching operator delete found; memory will not be freed if initialization throws an exception
+                 predefined C++ types (compiler internal)(23) : see declaration of 'operator new'
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(821): error C2864: 'LB::LBJSONRenderFM::record' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(823): warning C4291: 'void *operator new(size_t)' : no matching operator delete found; memory will not be freed if initialization throws an exception
+                 predefined C++ types (compiler internal)(23) : see declaration of 'operator new'
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(823): error C2864: 'LB::LBJSONRenderFM::error' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(824): warning C4291: 'void *operator new(size_t)' : no matching operator delete found; memory will not be freed if initialization throws an exception
+                 predefined C++ types (compiler internal)(23) : see declaration of 'operator new'
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(824): error C2864: 'LB::LBJSONRenderFM::postVars' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(1149): warning C4522: 'LB::LBJSONRenderFM' : multiple assignment operators specified
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(755): error C2065: 'doc' : undeclared identifier
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(755): error C2228: left of '.IsObject' must have class/struct/union
+                 type is ''unknown-type''
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(757): error C2065: 'doc' : undeclared identifier
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(762): error C2065: 'doc' : undeclared identifier
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(762): error C2228: left of '.IsArray' must have class/struct/union
+                 type is ''unknown-type''
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(765): error C2065: 'doc' : undeclared identifier
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(765): error C2228: left of '.Size' must have class/struct/union
+                 type is ''unknown-type''
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(769): error C2065: 'doc' : undeclared identifier
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(1108): error C2660: 'LB::LBJSONRenderFM::processDocument' : function does not take 1 arguments
+         LBFMPluginHandler copy.cpp
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(750): error C2061: syntax error : identifier '{ctor}'
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(806): error C2864: 'LB::LBJSONRenderFM::init' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(809): error C2864: 'LB::LBJSONRenderFM::useDebug' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(810): error C2864: 'LB::LBJSONRenderFM::useLBDebug' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(811): error C2864: 'LB::LBJSONRenderFM::errorCount' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(816): error C2864: 'LB::LBJSONRenderFM::module' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(817): error C2864: 'LB::LBJSONRenderFM::method' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(818): error C2864: 'LB::LBJSONRenderFM::cKey' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(819): error C2864: 'LB::LBJSONRenderFM::scKey' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(821): warning C4291: 'void *operator new(size_t)' : no matching operator delete found; memory will not be freed if initialization throws an exception
+                 predefined C++ types (compiler internal)(23) : see declaration of 'operator new'
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(821): error C2864: 'LB::LBJSONRenderFM::record' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(823): warning C4291: 'void *operator new(size_t)' : no matching operator delete found; memory will not be freed if initialization throws an exception
+                 predefined C++ types (compiler internal)(23) : see declaration of 'operator new'
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(823): error C2864: 'LB::LBJSONRenderFM::error' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(824): warning C4291: 'void *operator new(size_t)' : no matching operator delete found; memory will not be freed if initialization throws an exception
+                 predefined C++ types (compiler internal)(23) : see declaration of 'operator new'
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(824): error C2864: 'LB::LBJSONRenderFM::postVars' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(1149): warning C4522: 'LB::LBJSONRenderFM' : multiple assignment operators specified
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(755): error C2065: 'doc' : undeclared identifier
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(755): error C2228: left of '.IsObject' must have class/struct/union
+                 type is ''unknown-type''
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(757): error C2065: 'doc' : undeclared identifier
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(762): error C2065: 'doc' : undeclared identifier
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(762): error C2228: left of '.IsArray' must have class/struct/union
+                 type is ''unknown-type''
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(765): error C2065: 'doc' : undeclared identifier
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(765): error C2228: left of '.Size' must have class/struct/union
+                 type is ''unknown-type''
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(769): error C2065: 'doc' : undeclared identifier
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(1108): error C2660: 'LB::LBJSONRenderFM::processDocument' : function does not take 1 arguments
+     1>..\..\LBResources\LBFMPluginHandler copy.cpp(97): error C2065: 'SYNC2APIPOST_URL' : undeclared identifier
+     1>..\..\LBResources\LBFMPluginHandler copy.cpp(130): error C2065: 'LBJSONRender' : undeclared identifier
+     1>..\..\LBResources\LBFMPluginHandler copy.cpp(130): error C2146: syntax error : missing ';' before identifier 'jObject'
+     1>..\..\LBResources\LBFMPluginHandler copy.cpp(130): error C2065: 'jObject' : undeclared identifier
+     1>..\..\LBResources\LBFMPluginHandler copy.cpp(132): error C2065: 'jObject' : undeclared identifier
+     1>..\..\LBResources\LBFMPluginHandler copy.cpp(132): error C2228: left of '.processDocument' must have class/struct/union
+                 type is ''unknown-type''
+     1>..\..\LBResources\LBFMPluginHandler copy.cpp(135): error C2065: 'jObject' : undeclared identifier
+     1>..\..\LBResources\LBFMPluginHandler copy.cpp(135): error C2228: left of '.getOutput' must have class/struct/union
+                 type is ''unknown-type''
+         LBFMPluginGetRecordVarNames.cpp
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(750): error C2061: syntax error : identifier '{ctor}'
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(806): error C2864: 'LB::LBJSONRenderFM::init' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(809): error C2864: 'LB::LBJSONRenderFM::useDebug' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(810): error C2864: 'LB::LBJSONRenderFM::useLBDebug' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(811): error C2864: 'LB::LBJSONRenderFM::errorCount' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(816): error C2864: 'LB::LBJSONRenderFM::module' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(817): error C2864: 'LB::LBJSONRenderFM::method' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(818): error C2864: 'LB::LBJSONRenderFM::cKey' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(819): error C2864: 'LB::LBJSONRenderFM::scKey' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(821): warning C4291: 'void *operator new(size_t)' : no matching operator delete found; memory will not be freed if initialization throws an exception
+                 predefined C++ types (compiler internal)(23) : see declaration of 'operator new'
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(821): error C2864: 'LB::LBJSONRenderFM::record' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(823): warning C4291: 'void *operator new(size_t)' : no matching operator delete found; memory will not be freed if initialization throws an exception
+                 predefined C++ types (compiler internal)(23) : see declaration of 'operator new'
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(823): error C2864: 'LB::LBJSONRenderFM::error' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(824): warning C4291: 'void *operator new(size_t)' : no matching operator delete found; memory will not be freed if initialization throws an exception
+                 predefined C++ types (compiler internal)(23) : see declaration of 'operator new'
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(824): error C2864: 'LB::LBJSONRenderFM::postVars' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(1149): warning C4522: 'LB::LBJSONRenderFM' : multiple assignment operators specified
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(755): error C2065: 'doc' : undeclared identifier
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(755): error C2228: left of '.IsObject' must have class/struct/union
+                 type is ''unknown-type''
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(757): error C2065: 'doc' : undeclared identifier
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(762): error C2065: 'doc' : undeclared identifier
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(762): error C2228: left of '.IsArray' must have class/struct/union
+                 type is ''unknown-type''
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(765): error C2065: 'doc' : undeclared identifier
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(765): error C2228: left of '.Size' must have class/struct/union
+                 type is ''unknown-type''
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(769): error C2065: 'doc' : undeclared identifier
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(1108): error C2660: 'LB::LBJSONRenderFM::processDocument' : function does not take 1 arguments
+         LBFMPluginGetRecordCount.cpp
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(750): error C2061: syntax error : identifier '{ctor}'
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(806): error C2864: 'LB::LBJSONRenderFM::init' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(809): error C2864: 'LB::LBJSONRenderFM::useDebug' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(810): error C2864: 'LB::LBJSONRenderFM::useLBDebug' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(811): error C2864: 'LB::LBJSONRenderFM::errorCount' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(816): error C2864: 'LB::LBJSONRenderFM::module' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(817): error C2864: 'LB::LBJSONRenderFM::method' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(818): error C2864: 'LB::LBJSONRenderFM::cKey' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(819): error C2864: 'LB::LBJSONRenderFM::scKey' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(821): warning C4291: 'void *operator new(size_t)' : no matching operator delete found; memory will not be freed if initialization throws an exception
+                 predefined C++ types (compiler internal)(23) : see declaration of 'operator new'
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(821): error C2864: 'LB::LBJSONRenderFM::record' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(823): warning C4291: 'void *operator new(size_t)' : no matching operator delete found; memory will not be freed if initialization throws an exception
+                 predefined C++ types (compiler internal)(23) : see declaration of 'operator new'
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(823): error C2864: 'LB::LBJSONRenderFM::error' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(824): warning C4291: 'void *operator new(size_t)' : no matching operator delete found; memory will not be freed if initialization throws an exception
+                 predefined C++ types (compiler internal)(23) : see declaration of 'operator new'
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(824): error C2864: 'LB::LBJSONRenderFM::postVars' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(1149): warning C4522: 'LB::LBJSONRenderFM' : multiple assignment operators specified
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(755): error C2065: 'doc' : undeclared identifier
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(755): error C2228: left of '.IsObject' must have class/struct/union
+                 type is ''unknown-type''
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(757): error C2065: 'doc' : undeclared identifier
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(762): error C2065: 'doc' : undeclared identifier
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(762): error C2228: left of '.IsArray' must have class/struct/union
+                 type is ''unknown-type''
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(765): error C2065: 'doc' : undeclared identifier
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(765): error C2228: left of '.Size' must have class/struct/union
+                 type is ''unknown-type''
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(769): error C2065: 'doc' : undeclared identifier
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(1108): error C2660: 'LB::LBJSONRenderFM::processDocument' : function does not take 1 arguments
+         LBFMPluginGetProperty.cpp
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(750): error C2061: syntax error : identifier '{ctor}'
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(806): error C2864: 'LB::LBJSONRenderFM::init' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(809): error C2864: 'LB::LBJSONRenderFM::useDebug' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(810): error C2864: 'LB::LBJSONRenderFM::useLBDebug' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(811): error C2864: 'LB::LBJSONRenderFM::errorCount' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(816): error C2864: 'LB::LBJSONRenderFM::module' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(817): error C2864: 'LB::LBJSONRenderFM::method' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(818): error C2864: 'LB::LBJSONRenderFM::cKey' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(819): error C2864: 'LB::LBJSONRenderFM::scKey' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(821): warning C4291: 'void *operator new(size_t)' : no matching operator delete found; memory will not be freed if initialization throws an exception
+                 predefined C++ types (compiler internal)(23) : see declaration of 'operator new'
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(821): error C2864: 'LB::LBJSONRenderFM::record' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(823): warning C4291: 'void *operator new(size_t)' : no matching operator delete found; memory will not be freed if initialization throws an exception
+                 predefined C++ types (compiler internal)(23) : see declaration of 'operator new'
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(823): error C2864: 'LB::LBJSONRenderFM::error' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(824): warning C4291: 'void *operator new(size_t)' : no matching operator delete found; memory will not be freed if initialization throws an exception
+                 predefined C++ types (compiler internal)(23) : see declaration of 'operator new'
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(824): error C2864: 'LB::LBJSONRenderFM::postVars' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(1149): warning C4522: 'LB::LBJSONRenderFM' : multiple assignment operators specified
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(755): error C2065: 'doc' : undeclared identifier
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(755): error C2228: left of '.IsObject' must have class/struct/union
+                 type is ''unknown-type''
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(757): error C2065: 'doc' : undeclared identifier
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(762): error C2065: 'doc' : undeclared identifier
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(762): error C2228: left of '.IsArray' must have class/struct/union
+                 type is ''unknown-type''
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(765): error C2065: 'doc' : undeclared identifier
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(765): error C2228: left of '.Size' must have class/struct/union
+                 type is ''unknown-type''
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(769): error C2065: 'doc' : undeclared identifier
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(1108): error C2660: 'LB::LBJSONRenderFM::processDocument' : function does not take 1 arguments
+         LBFMPluginGetAllProperties.cpp
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(750): error C2061: syntax error : identifier '{ctor}'
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(806): error C2864: 'LB::LBJSONRenderFM::init' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(809): error C2864: 'LB::LBJSONRenderFM::useDebug' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(810): error C2864: 'LB::LBJSONRenderFM::useLBDebug' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(811): error C2864: 'LB::LBJSONRenderFM::errorCount' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(816): error C2864: 'LB::LBJSONRenderFM::module' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(817): error C2864: 'LB::LBJSONRenderFM::method' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(818): error C2864: 'LB::LBJSONRenderFM::cKey' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(819): error C2864: 'LB::LBJSONRenderFM::scKey' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(821): warning C4291: 'void *operator new(size_t)' : no matching operator delete found; memory will not be freed if initialization throws an exception
+                 predefined C++ types (compiler internal)(23) : see declaration of 'operator new'
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(821): error C2864: 'LB::LBJSONRenderFM::record' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(823): warning C4291: 'void *operator new(size_t)' : no matching operator delete found; memory will not be freed if initialization throws an exception
+                 predefined C++ types (compiler internal)(23) : see declaration of 'operator new'
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(823): error C2864: 'LB::LBJSONRenderFM::error' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(824): warning C4291: 'void *operator new(size_t)' : no matching operator delete found; memory will not be freed if initialization throws an exception
+                 predefined C++ types (compiler internal)(23) : see declaration of 'operator new'
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(824): error C2864: 'LB::LBJSONRenderFM::postVars' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(1149): warning C4522: 'LB::LBJSONRenderFM' : multiple assignment operators specified
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(755): error C2065: 'doc' : undeclared identifier
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(755): error C2228: left of '.IsObject' must have class/struct/union
+                 type is ''unknown-type''
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(757): error C2065: 'doc' : undeclared identifier
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(762): error C2065: 'doc' : undeclared identifier
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(762): error C2228: left of '.IsArray' must have class/struct/union
+                 type is ''unknown-type''
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(765): error C2065: 'doc' : undeclared identifier
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(765): error C2228: left of '.Size' must have class/struct/union
+                 type is ''unknown-type''
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(769): error C2065: 'doc' : undeclared identifier
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(1108): error C2660: 'LB::LBJSONRenderFM::processDocument' : function does not take 1 arguments
+         LBFMPluginClearRequest.cpp
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(750): error C2061: syntax error : identifier '{ctor}'
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(806): error C2864: 'LB::LBJSONRenderFM::init' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(809): error C2864: 'LB::LBJSONRenderFM::useDebug' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(810): error C2864: 'LB::LBJSONRenderFM::useLBDebug' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(811): error C2864: 'LB::LBJSONRenderFM::errorCount' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(816): error C2864: 'LB::LBJSONRenderFM::module' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(817): error C2864: 'LB::LBJSONRenderFM::method' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(818): error C2864: 'LB::LBJSONRenderFM::cKey' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(819): error C2864: 'LB::LBJSONRenderFM::scKey' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(821): warning C4291: 'void *operator new(size_t)' : no matching operator delete found; memory will not be freed if initialization throws an exception
+                 predefined C++ types (compiler internal)(23) : see declaration of 'operator new'
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(821): error C2864: 'LB::LBJSONRenderFM::record' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(823): warning C4291: 'void *operator new(size_t)' : no matching operator delete found; memory will not be freed if initialization throws an exception
+                 predefined C++ types (compiler internal)(23) : see declaration of 'operator new'
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(823): error C2864: 'LB::LBJSONRenderFM::error' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(824): warning C4291: 'void *operator new(size_t)' : no matching operator delete found; memory will not be freed if initialization throws an exception
+                 predefined C++ types (compiler internal)(23) : see declaration of 'operator new'
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(824): error C2864: 'LB::LBJSONRenderFM::postVars' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(1149): warning C4522: 'LB::LBJSONRenderFM' : multiple assignment operators specified
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(755): error C2065: 'doc' : undeclared identifier
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(755): error C2228: left of '.IsObject' must have class/struct/union
+                 type is ''unknown-type''
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(757): error C2065: 'doc' : undeclared identifier
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(762): error C2065: 'doc' : undeclared identifier
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(762): error C2228: left of '.IsArray' must have class/struct/union
+                 type is ''unknown-type''
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(765): error C2065: 'doc' : undeclared identifier
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(765): error C2228: left of '.Size' must have class/struct/union
+                 type is ''unknown-type''
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(769): error C2065: 'doc' : undeclared identifier
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(1108): error C2660: 'LB::LBJSONRenderFM::processDocument' : function does not take 1 arguments
+         FMPluginLicence.cpp
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(750): error C2061: syntax error : identifier '{ctor}'
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(806): error C2864: 'LB::LBJSONRenderFM::init' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(809): error C2864: 'LB::LBJSONRenderFM::useDebug' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(810): error C2864: 'LB::LBJSONRenderFM::useLBDebug' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(811): error C2864: 'LB::LBJSONRenderFM::errorCount' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(816): error C2864: 'LB::LBJSONRenderFM::module' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(817): error C2864: 'LB::LBJSONRenderFM::method' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(818): error C2864: 'LB::LBJSONRenderFM::cKey' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(819): error C2864: 'LB::LBJSONRenderFM::scKey' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(821): warning C4291: 'void *operator new(size_t)' : no matching operator delete found; memory will not be freed if initialization throws an exception
+                 predefined C++ types (compiler internal)(23) : see declaration of 'operator new'
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(821): error C2864: 'LB::LBJSONRenderFM::record' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(823): warning C4291: 'void *operator new(size_t)' : no matching operator delete found; memory will not be freed if initialization throws an exception
+                 predefined C++ types (compiler internal)(23) : see declaration of 'operator new'
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(823): error C2864: 'LB::LBJSONRenderFM::error' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(824): warning C4291: 'void *operator new(size_t)' : no matching operator delete found; memory will not be freed if initialization throws an exception
+                 predefined C++ types (compiler internal)(23) : see declaration of 'operator new'
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(824): error C2864: 'LB::LBJSONRenderFM::postVars' : only static const integral data members can be initialized within a class
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(1149): warning C4522: 'LB::LBJSONRenderFM' : multiple assignment operators specified
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(755): error C2065: 'doc' : undeclared identifier
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(755): error C2228: left of '.IsObject' must have class/struct/union
+                 type is ''unknown-type''
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(757): error C2065: 'doc' : undeclared identifier
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(762): error C2065: 'doc' : undeclared identifier
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(762): error C2228: left of '.IsArray' must have class/struct/union
+                 type is ''unknown-type''
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(765): error C2065: 'doc' : undeclared identifier
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(765): error C2228: left of '.Size' must have class/struct/union
+                 type is ''unknown-type''
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(769): error C2065: 'doc' : undeclared identifier
+     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBJSONRenderFM.h(1108): error C2660: 'LB::LBJSONRenderFM::processDocument' : function does not take 1 arguments
+         Generating Code...
+     1>Done Building Project "Z:\projects\Sync2API_FM_Plugin\Sync2API\Projects\VisualStudio 2010\PlugInTemplate.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:07:32.31

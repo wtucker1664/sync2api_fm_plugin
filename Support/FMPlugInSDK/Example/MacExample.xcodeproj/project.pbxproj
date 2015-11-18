@@ -1,0 +1,273 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F487FF307F8957E001869FF /* FMPluginExample.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6F487FF207F8957E001869FF /* FMPluginExample.strings */; };
+		6FE90C8507F8AC1000AB39F4 /* FMPluginExample.nib in Resources */ = {isa = PBXBuildFile; fileRef = 6F487FF007F89575001869FF /* FMPluginExample.nib */; };
+		C7DEDF0207E10BF3002283F3 /* FMPlugInExample.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C7DEDEF707E10BF3002283F3 /* FMPlugInExample.cpp */; };
+		C7DEDF0507E10BF3002283F3 /* FMPluginFunctions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C7DEDEF807E10BF3002283F3 /* FMPluginFunctions.cpp */; };
+		C7DEDF0607E10BF3002283F3 /* FMPluginFunctions.h in Headers */ = {isa = PBXBuildFile; fileRef = C7DEDEF907E10BF3002283F3 /* FMPluginFunctions.h */; };
+		C7DEDF0707E10BF3002283F3 /* FMPluginPrefs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C7DEDEFA07E10BF3002283F3 /* FMPluginPrefs.cpp */; };
+		C7DEDF0807E10BF3002283F3 /* FMPluginPrefs.h in Headers */ = {isa = PBXBuildFile; fileRef = C7DEDEFB07E10BF3002283F3 /* FMPluginPrefs.h */; };
+		C7DEDF1407E10BF4002283F3 /* FMPluginGlobalDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = C7DEDF1307E10BF4002283F3 /* FMPluginGlobalDefines.h */; };
+		C7DEDF1707E10BF4002283F3 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7DEDF1607E10BF4002283F3 /* CoreServices.framework */; };
+		C7DEDF1907E10BF4002283F3 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7DEDF1807E10BF4002283F3 /* Carbon.framework */; };
+		C7DEDF2107E10BF4002283F3 /* resource.h in Headers */ = {isa = PBXBuildFile; fileRef = C7DEDF2007E10BF4002283F3 /* resource.h */; };
+		C7DEDF3807E10CBC002283F3 /* FMWrapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7DEDF3707E10CBC002283F3 /* FMWrapper.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6F487FF007F89575001869FF /* FMPluginExample.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = FMPluginExample.nib; path = Support/FMPluginExample.nib; sourceTree = SOURCE_ROOT; };
+		6F487FF207F8957E001869FF /* FMPluginExample.strings */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist.strings; name = FMPluginExample.strings; path = Support/FMPluginExample.strings; sourceTree = SOURCE_ROOT; };
+		6F48806107F8A0DB001869FF /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; name = Info.plist; path = Support/Info.plist; sourceTree = SOURCE_ROOT; };
+		C77AF38407E11A7C00897241 /* MacExample.fmplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MacExample.fmplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7DEDEF707E10BF3002283F3 /* FMPlugInExample.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FMPlugInExample.cpp; sourceTree = SOURCE_ROOT; };
+		C7DEDEF807E10BF3002283F3 /* FMPluginFunctions.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = FMPluginFunctions.cpp; path = Support/FMPluginFunctions.cpp; sourceTree = SOURCE_ROOT; };
+		C7DEDEF907E10BF3002283F3 /* FMPluginFunctions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FMPluginFunctions.h; path = Support/FMPluginFunctions.h; sourceTree = SOURCE_ROOT; };
+		C7DEDEFA07E10BF3002283F3 /* FMPluginPrefs.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = FMPluginPrefs.cpp; path = Support/FMPluginPrefs.cpp; sourceTree = SOURCE_ROOT; };
+		C7DEDEFB07E10BF3002283F3 /* FMPluginPrefs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FMPluginPrefs.h; path = Support/FMPluginPrefs.h; sourceTree = SOURCE_ROOT; };
+		C7DEDF1307E10BF4002283F3 /* FMPluginGlobalDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FMPluginGlobalDefines.h; path = Support/FMPluginGlobalDefines.h; sourceTree = SOURCE_ROOT; };
+		C7DEDF1607E10BF4002283F3 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = /System/Library/Frameworks/CoreServices.framework; sourceTree = "<absolute>"; };
+		C7DEDF1807E10BF4002283F3 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
+		C7DEDF2007E10BF4002283F3 /* resource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = resource.h; path = Support/resource.h; sourceTree = SOURCE_ROOT; };
+		C7DEDF3707E10CBC002283F3 /* FMWrapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FMWrapper.framework; path = ../Libraries/FMWrapper.framework; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C7DEDEF107E10BF3002283F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7DEDF1707E10BF4002283F3 /* CoreServices.framework in Frameworks */,
+				C7DEDF1907E10BF4002283F3 /* Carbon.framework in Frameworks */,
+				C7DEDF3807E10CBC002283F3 /* FMWrapper.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C7DEDEE707E10BF3002283F3 = {
+			isa = PBXGroup;
+			children = (
+				C7DEDEF607E10BF3002283F3 /* Sources */,
+				C7DEDEFC07E10BF3002283F3 /* Resources */,
+				C7DEDF1507E10BF4002283F3 /* Frameworks */,
+				C77AF38407E11A7C00897241 /* MacExample.fmplugin */,
+			);
+			sourceTree = "<group>";
+		};
+		C7DEDEF607E10BF3002283F3 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				C7DEDEF707E10BF3002283F3 /* FMPlugInExample.cpp */,
+				C7DEDEF907E10BF3002283F3 /* FMPluginFunctions.h */,
+				C7DEDEF807E10BF3002283F3 /* FMPluginFunctions.cpp */,
+				C7DEDEFB07E10BF3002283F3 /* FMPluginPrefs.h */,
+				C7DEDEFA07E10BF3002283F3 /* FMPluginPrefs.cpp */,
+				C7DEDF1307E10BF4002283F3 /* FMPluginGlobalDefines.h */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		C7DEDEFC07E10BF3002283F3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C7DEDF2007E10BF4002283F3 /* resource.h */,
+				6F487FF007F89575001869FF /* FMPluginExample.nib */,
+				6F487FF207F8957E001869FF /* FMPluginExample.strings */,
+				6F48806107F8A0DB001869FF /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C7DEDF1507E10BF4002283F3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C7DEDF1607E10BF4002283F3 /* CoreServices.framework */,
+				C7DEDF1807E10BF4002283F3 /* Carbon.framework */,
+				C7DEDF3707E10CBC002283F3 /* FMWrapper.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C7DEDEEE07E10BF3002283F3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7DEDF0607E10BF3002283F3 /* FMPluginFunctions.h in Headers */,
+				C7DEDF0807E10BF3002283F3 /* FMPluginPrefs.h in Headers */,
+				C7DEDF1407E10BF4002283F3 /* FMPluginGlobalDefines.h in Headers */,
+				C7DEDF2107E10BF4002283F3 /* resource.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C7DEDEF307E10BF3002283F3 /* MacExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FD50583097C3165009399BF /* Build configuration list for PBXNativeTarget "MacExample" */;
+			buildPhases = (
+				C7DEDEEE07E10BF3002283F3 /* Headers */,
+				C7DEDEEF07E10BF3002283F3 /* Sources */,
+				C7DEDEF007E10BF3002283F3 /* Resources */,
+				C7DEDEF107E10BF3002283F3 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MacExample;
+			productName = MacExample;
+			productReference = C77AF38407E11A7C00897241 /* MacExample.fmplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C7DEDEEB07E10BF3002283F3 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 6FD50587097C3165009399BF /* Build configuration list for PBXProject "MacExample" */;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 0;
+			mainGroup = C7DEDEE707E10BF3002283F3;
+			productRefGroup = C7DEDEE707E10BF3002283F3;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C7DEDEF307E10BF3002283F3 /* MacExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C7DEDEF007E10BF3002283F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FE90C8507F8AC1000AB39F4 /* FMPluginExample.nib in Resources */,
+				6F487FF307F8957E001869FF /* FMPluginExample.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C7DEDEEF07E10BF3002283F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7DEDF0207E10BF3002283F3 /* FMPlugInExample.cpp in Sources */,
+				C7DEDF0507E10BF3002283F3 /* FMPluginFunctions.cpp in Sources */,
+				C7DEDF0707E10BF3002283F3 /* FMPluginPrefs.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6FD50584097C3165009399BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		6FD50585097C3165009399BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		6FD50588097C3165009399BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				FRAMEWORK_SEARCH_PATHS = ../Libraries;
+				GCC_ENABLE_SYMBOL_SEPARATION = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GENERATE_PKGINFO_FILE = YES;
+				INFOPLIST_FILE = Support/Info.plist;
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				OTHER_CFLAGS = "-fno-constant-cfstrings";
+				PRODUCT_NAME = MacExample;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+				SEPARATE_STRIP = YES;
+				WARNING_CFLAGS = (
+					"-Wall",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = fmplugin;
+			};
+			name = Release;
+		};
+		6FD50589097C3165009399BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEPLOYMENT_POSTPROCESSING = NO;
+				FRAMEWORK_SEARCH_PATHS = ../Libraries;
+				GCC_ENABLE_SYMBOL_SEPARATION = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_VERSION_ppc = 3.3;
+				GENERATE_PKGINFO_FILE = YES;
+				INFOPLIST_FILE = Support/Info.plist;
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				MACOSX_DEPLOYMENT_TARGET_ppc = 10.2;
+				OTHER_CFLAGS = "-fno-constant-cfstrings";
+				PRODUCT_NAME = MacExample;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+				SDKROOT_ppc = /Developer/SDKs/MacOSX10.2.8.sdk;
+				SEPARATE_STRIP = NO;
+				WARNING_CFLAGS = (
+					"-Wall",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = fmplugin;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6FD50583097C3165009399BF /* Build configuration list for PBXNativeTarget "MacExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FD50584097C3165009399BF /* Release */,
+				6FD50585097C3165009399BF /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FD50587097C3165009399BF /* Build configuration list for PBXProject "MacExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FD50588097C3165009399BF /* Release */,
+				6FD50589097C3165009399BF /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C7DEDEEB07E10BF3002283F3 /* Project object */;
+}
