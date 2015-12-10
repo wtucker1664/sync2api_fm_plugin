@@ -23,6 +23,7 @@
     <ProjectGuid>{4182C2DB-FD86-4886-BC73-DA9CA303B509}</ProjectGuid>
     <RootNamespace>FM Template 2.0</RootNamespace>
     <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
@@ -38,13 +39,13 @@
     <PlatformToolset>v140</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
-    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseOfMfc>false</UseOfMfc>
     <CharacterSet>MultiByte</CharacterSet>
-    <PlatformToolset>v110</PlatformToolset>
+    <PlatformToolset>v140</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
-    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseOfMfc>false</UseOfMfc>
     <CharacterSet>MultiByte</CharacterSet>
     <PlatformToolset>v140</PlatformToolset>
@@ -82,15 +83,15 @@
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.fmx</TargetExt>
-    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.fmx</TargetExt>
-    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">FMPluginDebug</TargetName>
-    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">FMPluginDebug</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.fmx64</TargetExt>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Sync2API</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Sync2API</TargetName>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <Optimization>Disabled</Optimization>
-      <AdditionalIncludeDirectories>C:\Users\Administrator\Documents\boost\boost_1_55_0;C:\Users\Administrator\Documents\libcurl\curl-7.40.0-devel-mingw32\include;$(ProjectDir)..\..\Sources;$(ProjectDir)..\..\Support;$(ProjectDir)..\..\Support\FMPlugInSDK\Headers;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;FMTEMPLATE21_EXPORTS;_CRT_SECURE_NO_WARNINGS;_HAS_ITERATOR_DEBUGGING=0;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>Z:\projects\Sync2API_FM_Plugin\Sync2API\LBResources;C:\Users\Administrator\Documents\library\curl-7.45.0\builds\libcurl-vc14-x86-release-static-ipv6-sspi-winssl\include;C:\Users\Administrator\Documents\library\json;C:\Users\Administrator\Documents\library\boost_1_57_0;$(ProjectDir)..\..\Sources;$(ProjectDir)..\..\Support;$(ProjectDir)..\..\Support\FMPlugInSDK\Headers;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;FMTEMPLATE21_EXPORTS;_CRT_SECURE_NO_WARNINGS;_HAS_ITERATOR_DEGUGGING=0;_WINSOCK_DEPRECATED_NO_WARNINGS;CURL_STATICLIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <MinimalRebuild>true</MinimalRebuild>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
@@ -111,8 +112,8 @@
       <SubSystem>Windows</SubSystem>
       <ImportLibrary>$(IntDir)FMPluginDebug.lib</ImportLibrary>
       <TargetMachine>MachineX86</TargetMachine>
-      <AdditionalLibraryDirectories>C:\Users\Administrator\Documents\libcurl\curl-7.40.0-devel-mingw32\lib;..\..\Support\FMPlugInSDK\Libraries\Win\win32;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>FMWrapper.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\Users\Administrator\Documents\library\boost_1_57_0;C:\Users\Administrator\Documents\library\curl-7.45.0\builds\libcurl-vc14-x86-release-static-ipv6-sspi-winssl\lib;C:\Users\Administrator\Documents\library\boost_1_57_0\stage\lib;..\..\Support\FMPlugInSDK\Libraries\Win\win32;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>FMWrapper.lib;libcurl_a.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <ResourceCompile>
       <PreprocessorDefinitions>_MSC_VER=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -122,7 +123,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
       <Optimization>Disabled</Optimization>
-      <AdditionalIncludeDirectories>$(ProjectDir)..\..\Sources;$(ProjectDir)..\..\Support;$(ProjectDir)..\..\Support\FMPlugInSDK\Headers;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Administrator\Documents\library\json;C:\Users\Administrator\Documents\library\boost_1_57_x64;C:\Users\Administrator\Documents\library\curl-7.45.0-win64\include;$(ProjectDir)..\..\Sources;$(ProjectDir)..\..\LBResources;$(ProjectDir)..\..\Support;$(ProjectDir)..\..\Support\FMPlugInSDK\Headers;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;FMTEMPLATE21_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
@@ -142,8 +143,8 @@
       <ProgramDatabaseFile>$(IntDir)FMPluginDebug.pdb</ProgramDatabaseFile>
       <SubSystem>Windows</SubSystem>
       <ImportLibrary>$(IntDir)FMPluginDebug.lib</ImportLibrary>
-      <AdditionalLibraryDirectories>..\..\Support\FMPlugInSDK\Libraries\Win\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>FMWrapper.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\Users\Administrator\Documents\library\boost_1_57_x64\stage\lib;C:\Users\Administrator\Documents\library\curl-7.45.0-win64\lib;..\..\Support\FMPlugInSDK\Libraries\Win\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>FMWrapper.lib;libcurl.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <ResourceCompile>
       <PreprocessorDefinitions>_MSC_VER=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -243,7 +244,6 @@
     <ClInclude Include="..\..\LBResources\LBFMPluginTwitterGetRow.h" />
     <ClInclude Include="..\..\LBResources\LBFMPluginTwitterPost.h" />
     <ClInclude Include="..\..\LBResources\LBFMPluginTwitterSetRowCount.h" />
-    <ClInclude Include="..\..\LBResources\LBJSONRender.hpp" />
     <ClInclude Include="..\..\LBResources\LBJSONRenderFM.h" />
     <ClInclude Include="..\..\rapidjson\allocators.h" />
     <ClInclude Include="..\..\rapidjson\document.h" />
@@ -280,7 +280,6 @@
     <ClCompile Include="..\..\LBResources\LBFMPluginGetProperty.cpp" />
     <ClCompile Include="..\..\LBResources\LBFMPluginGetRecordCount.cpp" />
     <ClCompile Include="..\..\LBResources\LBFMPluginGetRecordVarNames.cpp" />
-    <ClCompile Include="..\..\LBResources\LBFMPluginHandler copy.cpp" />
     <ClCompile Include="..\..\LBResources\LBFMPluginHandler.cpp" />
     <ClCompile Include="..\..\LBResources\LBFMPluginSendRequest.cpp" />
     <ClCompile Include="..\..\LBResources\LBFMPluginSetComplexProperty.cpp" />

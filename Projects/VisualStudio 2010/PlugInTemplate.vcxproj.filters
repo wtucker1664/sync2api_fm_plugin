@@ -122,9 +122,6 @@
     <ClInclude Include="..\..\LBResources\LBFMPluginTwitterSetRowCount.h">
       <Filter>Support</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\LBResources\LBJSONRender.hpp">
-      <Filter>Support</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\LBResources\LBJSONRenderFM.h">
       <Filter>Support</Filter>
     </ClInclude>
@@ -200,9 +197,6 @@
       <Filter>Sources</Filter>
     </ClCompile>
     <ClCompile Include="..\..\LBResources\LBFMPluginGetRecordVarNames.cpp">
-      <Filter>Sources</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\LBResources\LBFMPluginHandler copy.cpp">
       <Filter>Sources</Filter>
     </ClCompile>
     <ClCompile Include="..\..\LBResources\LBFMPluginHandler.cpp">

@@ -127,7 +127,7 @@ std::string getDataForFileMaker(std::string response,const char *vNames){
     }
 
     
-    LBJSONRender jObject;
+    LBJSONRenderFM jObject;
     
     jObject.processDocument(document,vNames);
     
