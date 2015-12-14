@@ -123,6 +123,12 @@ BEGIN
                                       FUNCTION_OFFSET + 9   FUNCTION_9_PROTOTYPE
                                         #ifdef FUNCTION_10_PROTOTYPE
                                           FUNCTION_OFFSET + 10   FUNCTION_10_PROTOTYPE
+					  #ifdef FUNCTION_11_PROTOTYPE
+                                            FUNCTION_OFFSET + 11   FUNCTION_11_PROTOTYPE
+					    #ifdef FUNCTION_10_PROTOTYPE
+                                              FUNCTION_OFFSET + 12   FUNCTION_12_PROTOTYPE
+                                            #endif //FUNCTION_12_PROTOTYPE
+                                          #endif //FUNCTION_11_PROTOTYPE
                                         #endif //FUNCTION_10_PROTOTYPE
                                     #endif //FUNCTION_9_PROTOTYPE
                                 #endif //FUNCTION_8_PROTOTYPE

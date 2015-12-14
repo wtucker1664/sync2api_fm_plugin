@@ -148,7 +148,7 @@
 		8268659F0797E91A006EAC37 /* localizablestrings.template */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; path = localizablestrings.template; sourceTree = "<group>"; };
 		826865A00797E91A006EAC37 /* 24u_plist_compiler.sh */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.script.sh; path = 24u_plist_compiler.sh; sourceTree = "<group>"; };
 		826865A10797E91A006EAC37 /* myplc.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = myplc.c; sourceTree = "<group>"; };
-		82D72FDF07BE25630063F5A9 /* Sync2APIDebug32.fmplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Sync2APIDebug32.fmplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		82D72FDF07BE25630063F5A9 /* Sync2APIDebug64.fmplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Sync2APIDebug64.fmplugin; sourceTree = BUILT_PRODUCTS_DIR; };
 		82E58B830795DF7900592B32 /* FMTConfig.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = FMTConfig.h; path = ../../Sources/FMTConfig.h; sourceTree = SOURCE_ROOT; };
 		B9BD41700A400925005A4D9D /* FMTemplatePrefix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMTemplatePrefix.h; path = ../../Support/FMTemplate/FMTemplatePrefix.h; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
@@ -239,7 +239,7 @@
 				821E317A078E9069004B645E /* Support */,
 				821E318C078E9069004B645E /* Libraries */,
 				821E31C3078E906C004B645E /* Frameworks */,
-				82D72FDF07BE25630063F5A9 /* Sync2APIDebug32.fmplugin */,
+				82D72FDF07BE25630063F5A9 /* Sync2APIDebug64.fmplugin */,
 			);
 			sourceTree = "<group>";
 		};
@@ -404,7 +404,7 @@
 			);
 			name = "FMPlugin Mac OS X";
 			productName = "FMPlugin Mac OS X Release";
-			productReference = 82D72FDF07BE25630063F5A9 /* Sync2APIDebug32.fmplugin */;
+			productReference = 82D72FDF07BE25630063F5A9 /* Sync2APIDebug64.fmplugin */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -532,7 +532,7 @@
 				);
 				LIBRARY_SEARCH_PATHS = /usr/local/opt/boost/lib;
 				OTHER_CFLAGS = "-fno-constant-cfstrings";
-				PRODUCT_NAME = Sync2APIDebug64;
+				PRODUCT_NAME = Sync2APIDebug32;
 				SDKROOT = macosx;
 				VALID_ARCHS = "i386 x64 x86_64";
 				WARNING_CFLAGS = (
@@ -567,7 +567,7 @@
 				);
 				LIBRARY_SEARCH_PATHS = /usr/local/opt/boost/lib;
 				OTHER_CFLAGS = "-fno-constant-cfstrings";
-				PRODUCT_NAME = Sync2API64;
+				PRODUCT_NAME = Sync2API32;
 				SDKROOT = macosx;
 				STRIP_INSTALLED_PRODUCT = YES;
 				STRIP_STYLE = all;

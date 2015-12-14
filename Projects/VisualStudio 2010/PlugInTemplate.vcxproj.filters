@@ -89,9 +89,6 @@
     <ClInclude Include="..\..\LBResources\LBFMPluginGetRecordVarNames.h">
       <Filter>Support</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\LBResources\LBFMPluginHandler copy.h">
-      <Filter>Support</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\LBResources\LBFMPluginHandler.h">
       <Filter>Support</Filter>
     </ClInclude>
@@ -164,6 +161,9 @@
     <ClInclude Include="..\..\rapidjson\writer.h">
       <Filter>Support</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Support\FMTemplate\resource.h">
+      <Filter>Support</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Sources\FMPluginHandlers.cpp">
@@ -181,7 +181,7 @@
     <ClCompile Include="..\..\Support\VisualStudio\FMPluginDllEntryPoint.cpp">
       <Filter>Support\VisualStudio</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\LBResources\FMPluginLicence.cpp">
+    <ClCompile Include="..\..\LBResources\LBFMPluginHandler.cpp">
       <Filter>Sources</Filter>
     </ClCompile>
     <ClCompile Include="..\..\LBResources\LBFMPluginClearRequest.cpp">
@@ -199,9 +199,6 @@
     <ClCompile Include="..\..\LBResources\LBFMPluginGetRecordVarNames.cpp">
       <Filter>Sources</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\LBResources\LBFMPluginHandler.cpp">
-      <Filter>Sources</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\LBResources\LBFMPluginSendRequest.cpp">
       <Filter>Sources</Filter>
     </ClCompile>
@@ -217,16 +214,7 @@
     <ClCompile Include="..\..\LBResources\LBFMPluginSetProperty.cpp">
       <Filter>Sources</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\LBResources\LBFMPluginTwitterDelete.cpp">
-      <Filter>Sources</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\LBResources\LBFMPluginTwitterGetRow.cpp">
-      <Filter>Sources</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\LBResources\LBFMPluginTwitterPost.cpp">
-      <Filter>Sources</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\LBResources\LBFMPluginTwitterSetRowCount.cpp">
+    <ClCompile Include="..\..\LBResources\FMPluginLicence.cpp">
       <Filter>Sources</Filter>
     </ClCompile>
   </ItemGroup>

@@ -125,6 +125,12 @@ localize "English" as "Localizable.strings"
                                       key "String109" value string FUNCTION_9_PROTOTYPE
                                         #ifdef FUNCTION_10_PROTOTYPE
                                           key "String110" value string FUNCTION_10_PROTOTYPE
+					  #ifdef FUNCTION_11_PROTOTYPE
+                                          	key "String111" value string FUNCTION_11_PROTOTYPE
+						#ifdef FUNCTION_12_PROTOTYPE
+                                          		key "String112" value string FUNCTION_12_PROTOTYPE
+                                        	#endif //FUNCTION_12_PROTOTYPE
+                                          #endif //FUNCTION_11_PROTOTYPE
                                         #endif //FUNCTION_10_PROTOTYPE
                                     #endif //FUNCTION_9_PROTOTYPE
                                 #endif //FUNCTION_8_PROTOTYPE

@@ -210,7 +210,7 @@ enum {
 #define FUNCTION_10_C_NAME         Sync2API_GetRecordVarNames
 #define FUNCTION_10_FLAGS          fmx::ExprEnv::kMayEvaluateOnServer | fmx::ExprEnv::kDisplayInAllDialogs
 #define FUNCTION_10_PARAMS         kAtLeast_0_Parameters, kAtWorst_1_Parameter
-#define FUNCTION_10_PROTOTYPE      "Sync2API_GetRecordVarNames( { recordNumber } ) // recordNumber is optional"
+#define FUNCTION_10_PROTOTYPE      "Sync2API_GetRecordVarNames( { recordNumber } )"
 
 #define FUNCTION_11_C_NAME         Sync2API_SetProperty
 #define FUNCTION_11_FLAGS          fmx::ExprEnv::kMayEvaluateOnServer | fmx::ExprEnv::kDisplayInAllDialogs
@@ -220,8 +220,8 @@ enum {
 #define FUNCTION_12_C_NAME         Sync2API_SetComplexProperty
 #define FUNCTION_12_FLAGS          fmx::ExprEnv::kMayEvaluateOnServer | fmx::ExprEnv::kDisplayInAllDialogs
 #define FUNCTION_12_PARAMS         kAtLeast_1_Parameter, kAtWorst_2_Parameters
-#define FUNCTION_12_PROTOTYPE      "Sync2API_SetComplexProperty( name ; { isValue } ) // isValue must be a 1 if it is the value of the propery you wish to send"
-
+#define FUNCTION_12_PROTOTYPE      "Sync2API_SetComplexProperty( name ; { isValue } )"
+/*
 #define FUNCTION_13_C_NAME         Sync2API_TwitterSetRowCount
 #define FUNCTION_13_FLAGS          fmx::ExprEnv::kMayEvaluateOnServer | fmx::ExprEnv::kDisplayInAllDialogs
 #define FUNCTION_13_PARAMS         kAtLeast_0_Parameters, kAtWorst_1_Parameter
@@ -242,7 +242,7 @@ enum {
 #define FUNCTION_16_PARAMS         kAtLeast_1_Parameter, kAtWorst_1_Parameter
 #define FUNCTION_16_PROTOTYPE      "Sync2API_TwitterDelete( id_str ) // The id string of the tweet"
 
-
+*/
 ////////////////////////////////////////////////////////////////////////////////
 
 #endif // __FMTConfig_h__

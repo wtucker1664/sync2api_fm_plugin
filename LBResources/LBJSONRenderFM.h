@@ -1228,10 +1228,11 @@ namespace LB {
 
 		LBJSONRenderFM() {
 			init = true;
-			this->setProperty("outputType", "json");
+			
 		}
 		LBJSONRenderFM(const LBJSONRenderFM & jO) {
 			init = true;
+			
 			useDebug = jO.useDebug;
 			useLBDebug = jO.useLBDebug;
 			module = jO.module;
@@ -1250,6 +1251,7 @@ namespace LB {
 
 		LBJSONRenderFM & operator = (const LBJSONRenderFM & jO) {
 			if (this != &jO) {
+				
 				useDebug = jO.useDebug;
 				useLBDebug = jO.useLBDebug;
 				module = jO.module;
@@ -1476,6 +1478,7 @@ namespace LB {
 			this->setProperty("scKey", scKey);
 			this->setProperty("module", module);
 			this->setProperty("method", method);
+			this->setProperty("outputType", "json");
 
 			map<string, string>::iterator it;
 
@@ -1498,7 +1501,7 @@ namespace LB {
 			}
 
 			string data = this->sendDataToUrl(postVals);
-			cout << data << endl;
+			//cout << data << endl;
 			const char *json = data.c_str();
 #if 0
 			// "normal" parsing, decode strings to new buffers. Can use other input stream via ParseStream().
@@ -1522,7 +1525,17 @@ namespace LB {
 				error.insert(make_pair("message", "Faild to Parse JSON object"));
 				errors.insert(make_pair(errorCount, error));
 				error.clear();
+				error.clear();
 				errorCount++;
+				if (useLBDebug) {
+					error.insert(make_pair("code", "1009"));
+					error.insert(make_pair("message", data));
+					errors.insert(make_pair(errorCount, error));
+					error.clear();
+					errorCount++;
+				}
+				
+				
 			}
 #endif
 
