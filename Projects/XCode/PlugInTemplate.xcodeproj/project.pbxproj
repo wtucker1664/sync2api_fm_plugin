@@ -532,7 +532,7 @@
 				);
 				LIBRARY_SEARCH_PATHS = /usr/local/opt/boost/lib;
 				OTHER_CFLAGS = "-fno-constant-cfstrings";
-				PRODUCT_NAME = Sync2APIDebug32;
+				PRODUCT_NAME = Sync2APIDebug64;
 				SDKROOT = macosx;
 				VALID_ARCHS = "i386 x64 x86_64";
 				WARNING_CFLAGS = (
@@ -567,7 +567,7 @@
 				);
 				LIBRARY_SEARCH_PATHS = /usr/local/opt/boost/lib;
 				OTHER_CFLAGS = "-fno-constant-cfstrings";
-				PRODUCT_NAME = Sync2API32;
+				PRODUCT_NAME = Sync2API64;
 				SDKROOT = macosx;
 				STRIP_INSTALLED_PRODUCT = YES;
 				STRIP_STYLE = all;

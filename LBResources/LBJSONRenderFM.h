@@ -218,7 +218,9 @@ namespace LB{
                         
                         
                     }
-                    varString.pop_back();
+                    if(doc[itr->name.GetString()].Size() > 0){
+                        varString.pop_back();
+                    }
                     
                 }else{
                     if(useLBDebug){
@@ -1062,7 +1064,7 @@ namespace LB{
             return size * nmemb;
         }
         
-        void processDocument(Document::GenericDocument & doc){
+        void processDocument(Document & doc){
             
             
             
@@ -1409,6 +1411,7 @@ namespace LB{
             this->setProperty("scKey",scKey);
             this->setProperty("module",module);
             this->setProperty("method",method);
+            this->setProperty("outputType","json");
             
             map<string,string>::iterator it;
             

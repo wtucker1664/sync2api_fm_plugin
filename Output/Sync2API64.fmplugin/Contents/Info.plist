@@ -5,11 +5,11 @@
 <key>CFBundleIdentifier</key>
 <string>com.linearblue.sync2api</string>
 <key>CFBundleName</key>
-<string>Sync2API32</string>
+<string>Sync2API64</string>
 <key>CFBundleGetInfoString</key>
-<string>Sync2API32 version 1.0, Copyright ©2015 by Linear Blue</string>
+<string>Sync2API64 version 1.0, Copyright ©2015 by Linear Blue</string>
 <key>CFBundleShortVersionString</key>
-<string>Sync2API32 version 1.0</string>
+<string>Sync2API64 version 1.0</string>
 <key>CFBundlePackageType</key>
 <string>BNDL</string>
 <key>CFBundleSignature</key>
