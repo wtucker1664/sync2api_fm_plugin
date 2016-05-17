@@ -29,8 +29,8 @@
 #include "document.h"		// rapidjson's DOM-style API
 #include "prettywriter.h"	// for stringify JSON
 #else
-#include "rapidjson\document.h"		// rapidjson's DOM-style API
-#include "rapidjson\prettywriter.h"	// for stringify JSON
+#include "..\rapidjson\document.h"		// rapidjson's DOM-style API
+#include "..\rapidjson\prettywriter.h"	// for stringify JSON
 #endif
 
 
@@ -55,7 +55,7 @@ namespace LB{
         int currentLevel = 0;
         string getVarString(){
             stringstream vString;
-            for(int i=0;i<varString.size();i++){
+            for(SizeType i=0;i<varString.size();i++){
                 if(i > 0 ){
                     
                     vString << "_" << varString[i];
@@ -69,7 +69,7 @@ namespace LB{
         }
         void stepBack(SizeType p){
             
-            for(int i=1;i<=p;i++){
+            for(SizeType i=1;i<=p;i++){
                 varString.pop_back();
             }
             
@@ -1027,8 +1027,8 @@ namespace LB{
                 curl_easy_setopt(curl, CURLOPT_WRITEDATA, &readBuffer);
                 curl_easy_setopt(curl, CURLOPT_POSTFIELDS, postVals.c_str());
                 curl_easy_setopt(curl, CURLOPT_HTTPHEADER, headers);
-                curl_easy_setopt(curl, CURLOPT_SSL_VERIFYPEER, true);
-                curl_easy_setopt(curl, CURLOPT_SSL_VERIFYHOST, true);
+                curl_easy_setopt(curl, CURLOPT_SSL_VERIFYPEER, false);
+                //curl_easy_setopt(curl, CURLOPT_SSL_VERIFYHOST, true);
                 
                 res = curl_easy_perform(curl);
                 curl_easy_cleanup(curl);
@@ -1043,11 +1043,14 @@ namespace LB{
                 return readBuffer;
             }else{
                 error.insert(make_pair("code","1008"));
-                error.insert(make_pair("message","Error with sending the request"));
+				stringstream errOut;
+				errOut << "Error with sending the request. Request CODE " << res;
+                error.insert(make_pair("message",errOut.str()));
                 errors.insert(make_pair(errorCount,error));
                 errorCount++;
                 return "No Data";
             }
+			return "No Data";
         }
         
         string getRequestUrl(){
@@ -1186,7 +1189,7 @@ namespace LB{
             
         }
         
-        LBJSONRenderFM & operator = (const LBJSONRenderFM & jO) const;
+       // LBJSONRenderFM & operator = (const LBJSONRenderFM & jO) const;
         
         LBJSONRenderFM & operator = (const LBJSONRenderFM & jO){
             if(this != &jO){
@@ -1374,6 +1377,9 @@ namespace LB{
         
         void clearRequest(){
             postVars.clear();
+			errors.clear();
+			error.clear();
+			errorCount=0;
         }
         
         void sendRequest(){

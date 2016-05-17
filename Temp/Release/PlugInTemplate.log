@@ -1,42 +1,35 @@
-﻿Build started 12/10/2015 4:54:08 PM.
-     1>Project "Z:\projects\Sync2API_FM_Plugin\Sync2API\Projects\VisualStudio 2010\PlugInTemplate.vcxproj" on node 2 (Build target(s)).
-     1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I"Z:\projects\Sync2API_FM_Plugin\Sync2API\Projects\VisualStudio 2010\..\..\Sources" /I"Z:\projects\Sync2API_FM_Plugin\Sync2API\Projects\VisualStudio 2010\..\..\Support" /I"Z:\projects\Sync2API_FM_Plugin\Sync2API\Projects\VisualStudio 2010\..\..\Support\FMPlugInSDK\Headers" /nologo /W3 /WX- /O2 /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D FMTEMPLATE20_EXPORTS /D _WINDLL /D _MBCS /Gm- /EHsc /MT /Zp8 /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"Z:\projects\Sync2API_FM_Plugin\Sync2API\Projects\VisualStudio 2010\..\..\Temp\Release\\" /Fd"Z:\projects\Sync2API_FM_Plugin\Sync2API\Projects\VisualStudio 2010\..\..\Temp\Release\vc140.pdb" /Gd /TP /wd4068 /FI"Z:\projects\Sync2API_FM_Plugin\Sync2API\Projects\VisualStudio 2010\..\..\Support\VisualStudio\stdafx.h" /errorReport:prompt ..\..\LBResources\FMPluginLicence.cpp ..\..\LBResources\LBFMPluginClearRequest.cpp ..\..\LBResources\LBFMPluginGetAllProperties.cpp ..\..\LBResources\LBFMPluginGetProperty.cpp ..\..\LBResources\LBFMPluginGetRecordCount.cpp ..\..\LBResources\LBFMPluginGetRecordVarNames.cpp ..\..\LBResources\LBFMPluginHandler.cpp ..\..\LBResources\LBFMPluginSendRequest.cpp ..\..\LBResources\LBFMPluginSetComplexProperty.cpp ..\..\LBResources\LBFMPluginSetMethod.cpp ..\..\LBResources\LBFMPluginSetModule.cpp ..\..\LBResources\LBFMPluginSetProperty.cpp ..\..\LBResources\LBFMPluginTwitterDelete.cpp ..\..\LBResources\LBFMPluginTwitterGetRow.cpp ..\..\LBResources\LBFMPluginTwitterPost.cpp ..\..\LBResources\LBFMPluginTwitterSetRowCount.cpp
-         FMPluginLicence.cpp
-     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBFMPluginHandler.h(22): fatal error C1083: Cannot open include file: 'curl/curl.h': No such file or directory
-         LBFMPluginClearRequest.cpp
-     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBFMPluginHandler.h(22): fatal error C1083: Cannot open include file: 'curl/curl.h': No such file or directory
-         LBFMPluginGetAllProperties.cpp
-     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBFMPluginHandler.h(22): fatal error C1083: Cannot open include file: 'curl/curl.h': No such file or directory
-         LBFMPluginGetProperty.cpp
-     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBFMPluginHandler.h(22): fatal error C1083: Cannot open include file: 'curl/curl.h': No such file or directory
-         LBFMPluginGetRecordCount.cpp
-     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBFMPluginHandler.h(22): fatal error C1083: Cannot open include file: 'curl/curl.h': No such file or directory
-         LBFMPluginGetRecordVarNames.cpp
-     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBFMPluginHandler.h(22): fatal error C1083: Cannot open include file: 'curl/curl.h': No such file or directory
-         LBFMPluginHandler.cpp
-     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBFMPluginHandler.h(22): fatal error C1083: Cannot open include file: 'curl/curl.h': No such file or directory
-         LBFMPluginSendRequest.cpp
-     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBFMPluginHandler.h(22): fatal error C1083: Cannot open include file: 'curl/curl.h': No such file or directory
-         LBFMPluginSetComplexProperty.cpp
-     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBFMPluginHandler.h(22): fatal error C1083: Cannot open include file: 'curl/curl.h': No such file or directory
-         LBFMPluginSetMethod.cpp
-     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBFMPluginHandler.h(22): fatal error C1083: Cannot open include file: 'curl/curl.h': No such file or directory
-         LBFMPluginSetModule.cpp
-     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBFMPluginHandler.h(22): fatal error C1083: Cannot open include file: 'curl/curl.h': No such file or directory
-         LBFMPluginSetProperty.cpp
-     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBFMPluginHandler.h(22): fatal error C1083: Cannot open include file: 'curl/curl.h': No such file or directory
-         LBFMPluginTwitterDelete.cpp
-     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBFMPluginHandler.h(22): fatal error C1083: Cannot open include file: 'curl/curl.h': No such file or directory
-         LBFMPluginTwitterGetRow.cpp
-     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBFMPluginHandler.h(22): fatal error C1083: Cannot open include file: 'curl/curl.h': No such file or directory
-         LBFMPluginTwitterPost.cpp
-     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBFMPluginHandler.h(22): fatal error C1083: Cannot open include file: 'curl/curl.h': No such file or directory
-         LBFMPluginTwitterSetRowCount.cpp
-     1>z:\projects\sync2api_fm_plugin\sync2api\lbresources\LBFMPluginHandler.h(22): fatal error C1083: Cannot open include file: 'curl/curl.h': No such file or directory
-         Generating Code...
-     1>Done Building Project "Z:\projects\Sync2API_FM_Plugin\Sync2API\Projects\VisualStudio 2010\PlugInTemplate.vcxproj" (Build target(s)) -- FAILED.
-
-Build FAILED.
-
-Time Elapsed 00:00:06.98
+﻿  FMPluginLicence.cpp
+  Unknown compiler version - please run the configure tests and report the results
+  LBFMPluginClearRequest.cpp
+  Unknown compiler version - please run the configure tests and report the results
+  LBFMPluginGetAllProperties.cpp
+  Unknown compiler version - please run the configure tests and report the results
+  LBFMPluginGetProperty.cpp
+  Unknown compiler version - please run the configure tests and report the results
+  LBFMPluginGetRecordCount.cpp
+  Unknown compiler version - please run the configure tests and report the results
+  LBFMPluginGetRecordVarNames.cpp
+  Unknown compiler version - please run the configure tests and report the results
+  LBFMPluginHandler.cpp
+  Unknown compiler version - please run the configure tests and report the results
+  LBFMPluginSendRequest.cpp
+  Unknown compiler version - please run the configure tests and report the results
+  LBFMPluginSetComplexProperty.cpp
+  Unknown compiler version - please run the configure tests and report the results
+  LBFMPluginSetMethod.cpp
+  Unknown compiler version - please run the configure tests and report the results
+  LBFMPluginSetModule.cpp
+  Unknown compiler version - please run the configure tests and report the results
+  LBFMPluginSetProperty.cpp
+  Unknown compiler version - please run the configure tests and report the results
+  Generating Code...
+  FMPluginHandlers.cpp
+  FMPluginVersion.cpp
+  Unknown compiler version - please run the configure tests and report the results
+..\..\Sources\FMPluginVersion.cpp(119): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+  FMTemplate.cpp
+  FMUtils.cpp
+  FMPluginDllEntryPoint.cpp
+     Creating library Y:\projects\C++\sync2api_fm_plugin\Projects\VisualStudio 2010\..\..\Temp\Release\FMPlugin.lib and object Y:\projects\C++\sync2api_fm_plugin\Projects\VisualStudio 2010\..\..\Temp\Release\FMPlugin.exp
+  PlugInTemplate.vcxproj -> Y:\projects\C++\sync2api_fm_plugin\Projects\VisualStudio 2010\..\..\Output\x64\Sync2API.fmx64
