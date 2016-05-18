@@ -26,10 +26,8 @@
   FMPluginHandlers.cpp
   FMPluginVersion.cpp
   Unknown compiler version - please run the configure tests and report the results
-..\..\Sources\FMPluginVersion.cpp(119): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
   FMTemplate.cpp
   FMUtils.cpp
   FMPluginDllEntryPoint.cpp
      Creating library Y:\projects\C++\sync2api_fm_plugin\Projects\VisualStudio 2010\..\..\Temp\Release\FMPlugin.lib and object Y:\projects\C++\sync2api_fm_plugin\Projects\VisualStudio 2010\..\..\Temp\Release\FMPlugin.exp
-  PlugInTemplate.vcxproj -> Y:\projects\C++\sync2api_fm_plugin\Projects\VisualStudio 2010\..\..\Output\x64\Sync2API.fmx64
+  PlugInTemplate.vcxproj -> Y:\projects\C++\sync2api_fm_plugin\Projects\VisualStudio 2010\..\..\Output\x86\Sync2API.fmx
