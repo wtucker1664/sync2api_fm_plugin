@@ -40,9 +40,7 @@ FMX_PROC(fmx::errcode) Sync2API_SendRequest(short funcId, const fmx::ExprEnv& en
     
         getObject()->sendRequest();
         if(getObject()->hasErrors()){
-            string errors = getObject()->getErrors();
-            
-            tempText->Assign(errors.c_str());
+            tempText->Assign("Error With Request");
             resultText->SetText(*tempText);
             
             

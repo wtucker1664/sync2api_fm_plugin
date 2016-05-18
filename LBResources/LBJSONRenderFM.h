@@ -1348,12 +1348,10 @@ namespace LB{
             scKey = scK;
         }
         
-        void setDebug(string debug){
-            if(debug == "true" || debug == "yes"){
-                useDebug = true;
-            }else{
-                useDebug = false;
-            }
+        void setDebug(bool t){
+            
+            useDebug = t;
+ 
         }
         
         void printRequestVars(){

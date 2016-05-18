@@ -7,15 +7,15 @@
 <key>CFBundleName</key>
 <string>Sync2API64</string>
 <key>CFBundleGetInfoString</key>
-<string>Sync2API64 version 1.0, Copyright ©2015 by Linear Blue</string>
+<string>Sync2API64 version 2.0, Copyright ©2015 by Linear Blue</string>
 <key>CFBundleShortVersionString</key>
-<string>Sync2API64 version 1.0</string>
+<string>Sync2API64 version 2.0</string>
 <key>CFBundlePackageType</key>
 <string>BNDL</string>
 <key>CFBundleSignature</key>
 <string>10Sync2API</string>
 <key>CFBundleVersion</key>
-<string>1.0</string>
+<string>2.0</string>
 <key>CFBundleDevelopmentRegion</key>
 <string>English</string>
 <key>CFBundleInfoDictionaryVersion</key>

@@ -69,7 +69,7 @@
 #define PLUGIN_ID_STRING        "10Sync2API"
 
 #define PLUGIN_NAME             "Sync2API"
-#define PLUGIN_VERSION          "1.0"
+#define PLUGIN_VERSION          "2.0"
 
 #define PLUGIN_VERSION_MAJOR    1
 #define PLUGIN_VERSION_MINOR    0

@@ -123,11 +123,25 @@ FMX_PROC(fmx::errcode) Sync2API_Version(short funcId, const fmx::ExprEnv& enviro
         }else if(tempText->Assign("LBDebug"), *tempText == parameter1 ){
             LBJSONRenderFM *j = getObject();
             j->setLBDebug(true);
+        }else if(tempText->Assign("LBDebugOff"), *tempText == parameter1 ){
+            LBJSONRenderFM *j = getObject();
+            j->setLBDebug(false);
         }else if(tempText->Assign("debug"), *tempText == parameter1 ){
             LBJSONRenderFM *j = getObject();
-            j->setDebug("true");
+            j->setDebug(true);
+        }else if(tempText->Assign("debugOff"), *tempText == parameter1 ){
+            LBJSONRenderFM *j = getObject();
+            j->setDebug(false);
+        }else if(tempText->Assign("LBDebugAll"), *tempText == parameter1 ){
+            LBJSONRenderFM *j = getObject();
+            j->setDebug(true);
+            j->setLBDebug(true);
+        }else if(tempText->Assign("LBDebugAllOff"), *tempText == parameter1 ){
+            LBJSONRenderFM *j = getObject();
+            j->setDebug(false);
+            j->setLBDebug(false);
         }
-        
+
         err = result.SetAsText( *resultText, dataVect.At(0).GetLocale() );
     }
     else 

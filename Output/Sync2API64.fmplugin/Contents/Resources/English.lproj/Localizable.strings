@@ -3,7 +3,7 @@ String1 = "Sync2API";
 /* Options text appearing in FM's preferences dialog */
 String2 = "This plug-in extends FileMaker applications by adding external functions for connecting to the Sync2API platform";
 /* Version */
-String3 = "1.0";
+String3 = "2.0";
 /* External functions prototypes go here */
 String101 = "Sync2API_Version( { versionFormat } )";
 String102 = "Sync2API_SetModule( module )";
