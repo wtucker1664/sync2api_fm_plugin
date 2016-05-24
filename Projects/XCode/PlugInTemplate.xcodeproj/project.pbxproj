@@ -55,6 +55,7 @@
 		3F581F691B5949E000F2D8C2 /* stringbuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F581F4E1B5949E000F2D8C2 /* stringbuffer.h */; };
 		3F581F6A1B5949E000F2D8C2 /* writer.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F581F4F1B5949E000F2D8C2 /* writer.h */; };
 		3F8391851B0A48F500B856E6 /* FMWrapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F8391841B0A48F500B856E6 /* FMWrapper.framework */; };
+		3FB88F9C1CF45EE30056631D /* LBJSONRenderFM.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3FB88F9B1CF45EE30056631D /* LBJSONRenderFM.cpp */; };
 		821E31AB078E906A004B645E /* FMTemplate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 821E3188078E9069004B645E /* FMTemplate.cpp */; };
 		821E31AC078E906A004B645E /* FMTemplate.h in Headers */ = {isa = PBXBuildFile; fileRef = 821E3187078E9069004B645E /* FMTemplate.h */; };
 		821E31B0078E906A004B645E /* FMXCalcEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = 821E317D078E9069004B645E /* FMXCalcEngine.h */; };
@@ -126,6 +127,7 @@
 		3F581F4E1B5949E000F2D8C2 /* stringbuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stringbuffer.h; sourceTree = "<group>"; };
 		3F581F4F1B5949E000F2D8C2 /* writer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = writer.h; sourceTree = "<group>"; };
 		3F8391841B0A48F500B856E6 /* FMWrapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FMWrapper.framework; path = ../../Support/FMPlugInSDK/Libraries/Mac/FMWrapper.framework; sourceTree = "<group>"; };
+		3FB88F9B1CF45EE30056631D /* LBJSONRenderFM.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LBJSONRenderFM.cpp; sourceTree = "<group>"; };
 		821E3176078E9069004B645E /* FMPlugin.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = FMPlugin.h; path = ../../Sources/FMPlugin.h; sourceTree = SOURCE_ROOT; };
 		821E3177078E9069004B645E /* FMPluginHandlers.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = FMPluginHandlers.cpp; path = ../../Sources/FMPluginHandlers.cpp; sourceTree = SOURCE_ROOT; };
 		821E3178078E9069004B645E /* FMPluginVersion.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = FMPluginVersion.cpp; path = ../../Sources/FMPluginVersion.cpp; sourceTree = SOURCE_ROOT; };
@@ -148,7 +150,7 @@
 		8268659F0797E91A006EAC37 /* localizablestrings.template */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; path = localizablestrings.template; sourceTree = "<group>"; };
 		826865A00797E91A006EAC37 /* 24u_plist_compiler.sh */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.script.sh; path = 24u_plist_compiler.sh; sourceTree = "<group>"; };
 		826865A10797E91A006EAC37 /* myplc.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = myplc.c; sourceTree = "<group>"; };
-		82D72FDF07BE25630063F5A9 /* Sync2APIDebug64.fmplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Sync2APIDebug64.fmplugin; path = Sync2APIDebug32.fmplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		82D72FDF07BE25630063F5A9 /* Sync2APIDebug64.fmplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Sync2APIDebug64.fmplugin; sourceTree = BUILT_PRODUCTS_DIR; };
 		82E58B830795DF7900592B32 /* FMTConfig.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = FMTConfig.h; path = ../../Sources/FMTConfig.h; sourceTree = SOURCE_ROOT; };
 		B9BD41700A400925005A4D9D /* FMTemplatePrefix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMTemplatePrefix.h; path = ../../Support/FMTemplate/FMTemplatePrefix.h; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
@@ -203,6 +205,7 @@
 				3F581F091B5949CC00F2D8C2 /* LBFMPluginTwitterSetRowCount.cpp */,
 				3F581F0A1B5949CC00F2D8C2 /* LBFMPluginTwitterSetRowCount.h */,
 				3F581F0C1B5949CC00F2D8C2 /* LBJSONRenderFM.h */,
+				3FB88F9B1CF45EE30056631D /* LBJSONRenderFM.cpp */,
 			);
 			name = LBResources;
 			path = ../../LBResources;
@@ -483,6 +486,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FB88F9C1CF45EE30056631D /* LBJSONRenderFM.cpp in Sources */,
 				3F581F1F1B5949CC00F2D8C2 /* LBFMPluginSetComplexProperty.cpp in Sources */,
 				3F581F171B5949CC00F2D8C2 /* LBFMPluginGetRecordVarNames.cpp in Sources */,
 				3F581F211B5949CC00F2D8C2 /* LBFMPluginSetMethod.cpp in Sources */,
