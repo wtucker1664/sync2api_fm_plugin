@@ -980,8 +980,14 @@ string LBJSONRenderFM::sendDataToUrl(stringstream &postValues){
         curl_easy_setopt(curl, CURLOPT_WRITEDATA, &readBuffer);
         curl_easy_setopt(curl, CURLOPT_POSTFIELDS, postVals.c_str());
         curl_easy_setopt(curl, CURLOPT_HTTPHEADER, headers);
+#if FMX_MAC_TARGET
+        curl_easy_setopt(curl, CURLOPT_SSL_VERIFYPEER, true);
+        curl_easy_setopt(curl, CURLOPT_SSL_VERIFYHOST, true);
+#else
         curl_easy_setopt(curl, CURLOPT_SSL_VERIFYPEER, false);
         //curl_easy_setopt(curl, CURLOPT_SSL_VERIFYHOST, true);
+#endif
+        
         
         res = curl_easy_perform(curl);
         curl_easy_cleanup(curl);
@@ -991,6 +997,7 @@ string LBJSONRenderFM::sendDataToUrl(stringstream &postValues){
         error.insert(make_pair("code","1007"));
         error.insert(make_pair("message","Error initialising the request"));
         errors.insert(make_pair(errorCount,error));
+        curl_easy_cleanup(curl);
     }
     if(res == 0){
         return readBuffer;
