@@ -1016,8 +1016,10 @@ string LBJSONRenderFM::sendDataToUrl(stringstream &postValues){
 string LBJSONRenderFM::getRequestUrl(){
     if(!useDebug){
         return "https://www.sync2api.com/consumer/";
+    }else if(useLBLocalDebug){
+        return "http://172.16.9.161/sync2api/website/consumer";
     }else{
-        return "https://sync2api.linearblue.net/consumer";
+        return "https://sync2api.linearblue.net/sync2api/website/consumer";
     }
 }
 
@@ -1103,6 +1105,7 @@ LBJSONRenderFM::LBJSONRenderFM(const LBJSONRenderFM & jO){
     init = true;
     useDebug = jO.useDebug;
     useLBDebug = jO.useLBDebug;
+    useLBLocalDebug = jO.useLBLocalDebug;
     module = jO.module;
     method = jO.method;
     cKey = jO.cKey;
@@ -1236,6 +1239,10 @@ map<string,string> LBJSONRenderFM::getAllProperties(int rec){
 
 void LBJSONRenderFM::setLBDebug(bool t){
     useLBDebug = t;
+}
+
+void LBJSONRenderFM::setLBLocalDebug(bool t){
+    useLBLocalDebug = t;
 }
 
 void LBJSONRenderFM::setModule(string mod){

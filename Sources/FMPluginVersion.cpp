@@ -121,25 +121,46 @@ FMX_PROC(fmx::errcode) Sync2API_Version(short funcId, const fmx::ExprEnv& enviro
                     PLUGIN_VERSION_BUILD, PLUGIN_VERSION_DEV);
             resultText->Assign(auChars);
         }else if(tempText->Assign("LBDebug"), *tempText == parameter1 ){
-            LBJSONRenderFM *j = getObject();
-            j->setLBDebug(true);
+           
+            getObject()->setLBDebug(true);
         }else if(tempText->Assign("LBDebugOff"), *tempText == parameter1 ){
-            LBJSONRenderFM *j = getObject();
-            j->setLBDebug(false);
+            
+            getObject()->setLBDebug(false);
+        }else if(tempText->Assign("LBLocalDebug"), *tempText == parameter1 ){
+            getObject()->setDebug(true);
+            getObject()->setLBLocalDebug(true);
+        }else if(tempText->Assign("LBLocalDebugOff"), *tempText == parameter1 ){
+            getObject()->setDebug(false);
+            getObject()->setLBLocalDebug(false);
         }else if(tempText->Assign("debug"), *tempText == parameter1 ){
-            LBJSONRenderFM *j = getObject();
-            j->setDebug(true);
+            
+            getObject()->setDebug(true);
         }else if(tempText->Assign("debugOff"), *tempText == parameter1 ){
-            LBJSONRenderFM *j = getObject();
-            j->setDebug(false);
+            
+            getObject()->setDebug(false);
         }else if(tempText->Assign("LBDebugAll"), *tempText == parameter1 ){
-            LBJSONRenderFM *j = getObject();
-            j->setDebug(true);
-            j->setLBDebug(true);
+            
+            getObject()->setDebug(true);
+            getObject()->setLBDebug(true);
+            
         }else if(tempText->Assign("LBDebugAllOff"), *tempText == parameter1 ){
-            LBJSONRenderFM *j = getObject();
-            j->setDebug(false);
-            j->setLBDebug(false);
+            
+            getObject()->setDebug(false);
+            getObject()->setLBDebug(false);
+            
+        }else if(tempText->Assign("LBLocalDebugAll"), *tempText == parameter1 ){
+            cout << "Local Debug All Set on" << endl;
+            
+            getObject()->setDebug(true);
+            getObject()->setLBDebug(true);
+            getObject()->setLBLocalDebug(true);
+            
+        }else if(tempText->Assign("LBLocalDebugAllOff"), *tempText == parameter1 ){
+            cout << "Local Debug All Set off" << endl;
+            getObject()->setDebug(false);
+            getObject()->setLBDebug(false);
+            getObject()->setLBLocalDebug(false);
+            
         }
 
         err = result.SetAsText( *resultText, dataVect.At(0).GetLocale() );

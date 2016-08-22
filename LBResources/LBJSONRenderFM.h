@@ -88,6 +88,7 @@ namespace LB{
         
         bool useDebug = false;
         bool useLBDebug = false;
+        bool useLBLocalDebug = false;
         int errorCount = 0;
         stringstream LBOutput;
         stringstream LBName;
@@ -119,6 +120,7 @@ namespace LB{
             if(this != &jO){
                 useDebug = jO.useDebug;
                 useLBDebug = jO.useLBDebug;
+                useLBLocalDebug = jO.useLBLocalDebug;
                 module = jO.module;
                 method = jO.method;
                 cKey = jO.cKey;
@@ -153,6 +155,8 @@ namespace LB{
         map<string,string> getAllProperties(int rec);
         
         void setLBDebug(bool t);
+        
+        void setLBLocalDebug(bool t);
         
         void setModule(string mod);
         
